@@ -1,0 +1,1716 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-treetable/3.2.0/css/jquery.treetable.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-treetable/3.2.0/css/jquery.treetable.theme.default.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-treetable/3.2.0/jquery.treetable.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $("#filetable").treetable({
+          expandable: true,
+          onNodeCollapse: function() {},
+          onNodeExpand: function() {}
+        });
+      });
+    </script>    
+    
+      </head>
+      <body>
+    <div id='file-table'><b>File table</b>
+    <table id='filetable'>
+      <caption>
+        <a href='#' onclick="jQuery('#filetable').treetable('expandAll');return false;">
+          Expand all</a> &nbsp&nbsp
+        <a href='#' onclick="jQuery('#filetable').treetable('collapseAll');return false;">
+          Collapse all</a>
+      </caption>
+    <thead><tr><th>Files</th><th>Path</th></tr></thead>
+      <tr data-tt-id='Alignment'><td>Alignment</td><td></td></tr>
+<tr data-tt-id='Alignment/Control-1'data-tt-parent-id='Alignment'><td>Control 1</td><td></td></tr>
+<tr data-tt-id='Alignment/Control-1/Filtered-BAM'data-tt-parent-id='Alignment/Control-1'><td>Filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/ctl1/ENCC-I1_1.merged.nodup.bam</td></tr>
+<tr data-tt-id='Alignment/Control-1/Raw-BAM-from-aligner'data-tt-parent-id='Alignment/Control-1'><td>Raw BAM from aligner</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/ctl1/ENCC-I1_1.merged.bam</td></tr>
+<tr data-tt-id='Alignment/Control-1/TAG-ALIGN'data-tt-parent-id='Alignment/Control-1'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/ctl1/ENCC-I1_1.merged.nodup.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Control-2'data-tt-parent-id='Alignment'><td>Control 2</td><td></td></tr>
+<tr data-tt-id='Alignment/Control-2/Filtered-BAM'data-tt-parent-id='Alignment/Control-2'><td>Filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/ctl2/ENCC-I2_1.merged.nodup.bam</td></tr>
+<tr data-tt-id='Alignment/Control-2/Raw-BAM-from-aligner'data-tt-parent-id='Alignment/Control-2'><td>Raw BAM from aligner</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/ctl2/ENCC-I2_1.merged.bam</td></tr>
+<tr data-tt-id='Alignment/Control-2/TAG-ALIGN'data-tt-parent-id='Alignment/Control-2'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/ctl2/ENCC-I2_1.merged.nodup.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Pooled-control'data-tt-parent-id='Alignment'><td>Pooled control</td><td></td></tr>
+<tr data-tt-id='Alignment/Pooled-control/TAG-ALIGN'data-tt-parent-id='Alignment/Pooled-control'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/pooled-ctl/ENCC-I1_1.merged.nodup.pooled.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Pooled-replicate'data-tt-parent-id='Alignment'><td>Pooled replicate</td><td></td></tr>
+<tr data-tt-id='Alignment/Pooled-replicate/Pseudoreplicate-1'data-tt-parent-id='Alignment/Pooled-replicate'><td>Pseudoreplicate 1</td><td></td></tr>
+<tr data-tt-id='Alignment/Pooled-replicate/Pseudoreplicate-1/TAG-ALIGN'data-tt-parent-id='Alignment/Pooled-replicate/Pseudoreplicate-1'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/pooled-rep/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1.pooled.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Pooled-replicate/Pseudoreplicate-2'data-tt-parent-id='Alignment/Pooled-replicate'><td>Pseudoreplicate 2</td><td></td></tr>
+<tr data-tt-id='Alignment/Pooled-replicate/Pseudoreplicate-2/TAG-ALIGN'data-tt-parent-id='Alignment/Pooled-replicate/Pseudoreplicate-2'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/pooled-rep/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2.pooled.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Pooled-replicate/TAG-ALIGN'data-tt-parent-id='Alignment/Pooled-replicate'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/pooled-rep/ENCC-K27-2_1.merged.nodup.pooled.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Replicate-1'data-tt-parent-id='Alignment'><td>Replicate 1</td><td></td></tr>
+<tr data-tt-id='Alignment/Replicate-1/Pseudoreplicate-1'data-tt-parent-id='Alignment/Replicate-1'><td>Pseudoreplicate 1</td><td></td></tr>
+<tr data-tt-id='Alignment/Replicate-1/Pseudoreplicate-1/TAG-ALIGN'data-tt-parent-id='Alignment/Replicate-1/Pseudoreplicate-1'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/rep1/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Replicate-1/Pseudoreplicate-2'data-tt-parent-id='Alignment/Replicate-1'><td>Pseudoreplicate 2</td><td></td></tr>
+<tr data-tt-id='Alignment/Replicate-1/Pseudoreplicate-2/TAG-ALIGN'data-tt-parent-id='Alignment/Replicate-1/Pseudoreplicate-2'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/rep1/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Replicate-1/Filtered-BAM'data-tt-parent-id='Alignment/Replicate-1'><td>Filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/rep1/ENCC-K27-2_1.merged.nodup.bam</td></tr>
+<tr data-tt-id='Alignment/Replicate-1/Raw-BAM-from-aligner'data-tt-parent-id='Alignment/Replicate-1'><td>Raw BAM from aligner</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/rep1/ENCC-K27-2_1.merged.bam</td></tr>
+<tr data-tt-id='Alignment/Replicate-1/TAG-ALIGN'data-tt-parent-id='Alignment/Replicate-1'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/rep1/ENCC-K27-2_1.merged.nodup.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Replicate-2'data-tt-parent-id='Alignment'><td>Replicate 2</td><td></td></tr>
+<tr data-tt-id='Alignment/Replicate-2/Pseudoreplicate-1'data-tt-parent-id='Alignment/Replicate-2'><td>Pseudoreplicate 1</td><td></td></tr>
+<tr data-tt-id='Alignment/Replicate-2/Pseudoreplicate-1/TAG-ALIGN'data-tt-parent-id='Alignment/Replicate-2/Pseudoreplicate-1'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/rep2/pseudorep1/ENCC-K27-1_1.merged.nodup.pr1.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Replicate-2/Pseudoreplicate-2'data-tt-parent-id='Alignment/Replicate-2'><td>Pseudoreplicate 2</td><td></td></tr>
+<tr data-tt-id='Alignment/Replicate-2/Pseudoreplicate-2/TAG-ALIGN'data-tt-parent-id='Alignment/Replicate-2/Pseudoreplicate-2'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/rep2/pseudorep2/ENCC-K27-1_1.merged.nodup.pr2.tagAlign.gz</td></tr>
+<tr data-tt-id='Alignment/Replicate-2/Filtered-BAM'data-tt-parent-id='Alignment/Replicate-2'><td>Filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/rep2/ENCC-K27-1_1.merged.nodup.bam</td></tr>
+<tr data-tt-id='Alignment/Replicate-2/Raw-BAM-from-aligner'data-tt-parent-id='Alignment/Replicate-2'><td>Raw BAM from aligner</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/rep2/ENCC-K27-1_1.merged.bam</td></tr>
+<tr data-tt-id='Alignment/Replicate-2/TAG-ALIGN'data-tt-parent-id='Alignment/Replicate-2'><td>TAG-ALIGN</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/align/rep2/ENCC-K27-1_1.merged.nodup.tagAlign.gz</td></tr>
+<tr data-tt-id='Peak'><td>Peak</td><td></td></tr>
+<tr data-tt-id='Peak/Overlap-reproducibility'data-tt-parent-id='Peak'><td>Overlap reproducibility</td><td></td></tr>
+<tr data-tt-id='Peak/Overlap-reproducibility/Conservative-peak'data-tt-parent-id='Peak/Overlap-reproducibility'><td>Conservative peak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Overlap-reproducibility/Conservative-peak-(BigBed)'data-tt-parent-id='Peak/Overlap-reproducibility'><td>Conservative peak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Overlap-reproducibility/Conservative-peak-(hammock)'data-tt-parent-id='Peak/Overlap-reproducibility'><td>Conservative peak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/overlap_reproducibility/overlap.conservative_peak.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Overlap-reproducibility/Optimal-peak'data-tt-parent-id='Peak/Overlap-reproducibility'><td>Optimal peak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Overlap-reproducibility/Optimal-peak-(BigBed)'data-tt-parent-id='Peak/Overlap-reproducibility'><td>Optimal peak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Overlap-reproducibility/Optimal-peak-(hammock)'data-tt-parent-id='Peak/Overlap-reproducibility'><td>Optimal peak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-pseudoreplicate-1-vs.-2'data-tt-parent-id='Peak'><td>Pooled pseudoreplicate 1 vs. 2</td><td></td></tr>
+<tr data-tt-id='Peak/Pooled-pseudoreplicate-1-vs.-2/Blacklist-filtered-IDR-peak'data-tt-parent-id='Peak/Pooled-pseudoreplicate-1-vs.-2'><td>Blacklist-filtered IDR peak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.idr0.05.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-pseudoreplicate-1-vs.-2/Blacklist-filtered-IDR-peak-(BigBed)'data-tt-parent-id='Peak/Pooled-pseudoreplicate-1-vs.-2'><td>Blacklist-filtered IDR peak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.idr0.05.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Pooled-pseudoreplicate-1-vs.-2/Blacklist-filtered-IDR-peak-(hammock)'data-tt-parent-id='Peak/Pooled-pseudoreplicate-1-vs.-2'><td>Blacklist-filtered IDR peak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.idr0.05.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-pseudoreplicate-1-vs.-2/Blacklist-filtered-overlap-peak'data-tt-parent-id='Peak/Pooled-pseudoreplicate-1-vs.-2'><td>Blacklist-filtered overlap peak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.overlap.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-pseudoreplicate-1-vs.-2/Blacklist-filtered-overlap-peak-(BigBed)'data-tt-parent-id='Peak/Pooled-pseudoreplicate-1-vs.-2'><td>Blacklist-filtered overlap peak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.overlap.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Pooled-pseudoreplicate-1-vs.-2/Blacklist-filtered-overlap-peak-(hammock)'data-tt-parent-id='Peak/Pooled-pseudoreplicate-1-vs.-2'><td>Blacklist-filtered overlap peak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.overlap.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-pseudoreplicate-1-vs.-2/Unthresholded-raw-IDR-peak'data-tt-parent-id='Peak/Pooled-pseudoreplicate-1-vs.-2'><td>Unthresholded raw IDR peak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.idr0.05.unthresholded-peaks.txt.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate'data-tt-parent-id='Peak'><td>Pooled replicate</td><td></td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Pseudoreplicate-1'data-tt-parent-id='Peak/Pooled-replicate'><td>Pseudoreplicate 1</td><td></td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Pseudoreplicate-1/Blacklist-filtered-narrowpeak'data-tt-parent-id='Peak/Pooled-replicate/Pseudoreplicate-1'><td>Blacklist-filtered narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Pseudoreplicate-1/Blacklist-filtered-narrowpeak-(BigBed)'data-tt-parent-id='Peak/Pooled-replicate/Pseudoreplicate-1'><td>Blacklist-filtered narrowpeak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Pseudoreplicate-1/Blacklist-filtered-narrowpeak-(hammock)'data-tt-parent-id='Peak/Pooled-replicate/Pseudoreplicate-1'><td>Blacklist-filtered narrowpeak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Pseudoreplicate-1/Raw-narrowpeak'data-tt-parent-id='Peak/Pooled-replicate/Pseudoreplicate-1'><td>Raw narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Pseudoreplicate-2'data-tt-parent-id='Peak/Pooled-replicate'><td>Pseudoreplicate 2</td><td></td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Pseudoreplicate-2/Blacklist-filtered-narrowpeak'data-tt-parent-id='Peak/Pooled-replicate/Pseudoreplicate-2'><td>Blacklist-filtered narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Pseudoreplicate-2/Blacklist-filtered-narrowpeak-(BigBed)'data-tt-parent-id='Peak/Pooled-replicate/Pseudoreplicate-2'><td>Blacklist-filtered narrowpeak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Pseudoreplicate-2/Blacklist-filtered-narrowpeak-(hammock)'data-tt-parent-id='Peak/Pooled-replicate/Pseudoreplicate-2'><td>Blacklist-filtered narrowpeak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Pseudoreplicate-2/Raw-narrowpeak'data-tt-parent-id='Peak/Pooled-replicate/Pseudoreplicate-2'><td>Raw narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Blacklist-filtered-narrowpeak'data-tt-parent-id='Peak/Pooled-replicate'><td>Blacklist-filtered narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Blacklist-filtered-narrowpeak-(BigBed)'data-tt-parent-id='Peak/Pooled-replicate'><td>Blacklist-filtered narrowpeak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Blacklist-filtered-narrowpeak-(hammock)'data-tt-parent-id='Peak/Pooled-replicate'><td>Blacklist-filtered narrowpeak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Pooled-replicate/Raw-narrowpeak'data-tt-parent-id='Peak/Pooled-replicate'><td>Raw narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/pooled-rep/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Rep1-vs.-rep2'data-tt-parent-id='Peak'><td>Rep1 vs. rep2</td><td></td></tr>
+<tr data-tt-id='Peak/Rep1-vs.-rep2/Blacklist-filtered-overlap-peak'data-tt-parent-id='Peak/Rep1-vs.-rep2'><td>Blacklist-filtered overlap peak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1_vs_rep2/rep1_vs_rep2.overlap.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Rep1-vs.-rep2/Blacklist-filtered-overlap-peak-(BigBed)'data-tt-parent-id='Peak/Rep1-vs.-rep2'><td>Blacklist-filtered overlap peak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1_vs_rep2/rep1_vs_rep2.overlap.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Rep1-vs.-rep2/Blacklist-filtered-overlap-peak-(hammock)'data-tt-parent-id='Peak/Rep1-vs.-rep2'><td>Blacklist-filtered overlap peak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1_vs_rep2/rep1_vs_rep2.overlap.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1'data-tt-parent-id='Peak'><td>Replicate 1</td><td></td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudorep-1-vs.-pseudorep-2'data-tt-parent-id='Peak/Replicate-1'><td>Pseudorep 1 vs. pseudorep 2</td><td></td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudorep-1-vs.-pseudorep-2/Blacklist-filtered-overlap-peak'data-tt-parent-id='Peak/Replicate-1/Pseudorep-1-vs.-pseudorep-2'><td>Blacklist-filtered overlap peak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudorep-1-vs.-pseudorep-2/Blacklist-filtered-overlap-peak-(BigBed)'data-tt-parent-id='Peak/Replicate-1/Pseudorep-1-vs.-pseudorep-2'><td>Blacklist-filtered overlap peak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudorep-1-vs.-pseudorep-2/Blacklist-filtered-overlap-peak-(hammock)'data-tt-parent-id='Peak/Replicate-1/Pseudorep-1-vs.-pseudorep-2'><td>Blacklist-filtered overlap peak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudoreplicate-1'data-tt-parent-id='Peak/Replicate-1'><td>Pseudoreplicate 1</td><td></td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudoreplicate-1/Blacklist-filtered-narrowpeak'data-tt-parent-id='Peak/Replicate-1/Pseudoreplicate-1'><td>Blacklist-filtered narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudoreplicate-1/Blacklist-filtered-narrowpeak-(BigBed)'data-tt-parent-id='Peak/Replicate-1/Pseudoreplicate-1'><td>Blacklist-filtered narrowpeak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudoreplicate-1/Blacklist-filtered-narrowpeak-(hammock)'data-tt-parent-id='Peak/Replicate-1/Pseudoreplicate-1'><td>Blacklist-filtered narrowpeak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudoreplicate-1/Raw-narrowpeak'data-tt-parent-id='Peak/Replicate-1/Pseudoreplicate-1'><td>Raw narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1_x_ctl_for_rep1.pval0.01.500K.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudoreplicate-2'data-tt-parent-id='Peak/Replicate-1'><td>Pseudoreplicate 2</td><td></td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudoreplicate-2/Blacklist-filtered-narrowpeak'data-tt-parent-id='Peak/Replicate-1/Pseudoreplicate-2'><td>Blacklist-filtered narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudoreplicate-2/Blacklist-filtered-narrowpeak-(BigBed)'data-tt-parent-id='Peak/Replicate-1/Pseudoreplicate-2'><td>Blacklist-filtered narrowpeak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudoreplicate-2/Blacklist-filtered-narrowpeak-(hammock)'data-tt-parent-id='Peak/Replicate-1/Pseudoreplicate-2'><td>Blacklist-filtered narrowpeak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Pseudoreplicate-2/Raw-narrowpeak'data-tt-parent-id='Peak/Replicate-1/Pseudoreplicate-2'><td>Raw narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2_x_ctl_for_rep1.pval0.01.500K.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Blacklist-filtered-narrowpeak'data-tt-parent-id='Peak/Replicate-1'><td>Blacklist-filtered narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Blacklist-filtered-narrowpeak-(BigBed)'data-tt-parent-id='Peak/Replicate-1'><td>Blacklist-filtered narrowpeak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Blacklist-filtered-narrowpeak-(hammock)'data-tt-parent-id='Peak/Replicate-1'><td>Blacklist-filtered narrowpeak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-1/Raw-narrowpeak'data-tt-parent-id='Peak/Replicate-1'><td>Raw narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep1/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.pval0.01.500K.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2'data-tt-parent-id='Peak'><td>Replicate 2</td><td></td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudorep-1-vs.-pseudorep-2'data-tt-parent-id='Peak/Replicate-2'><td>Pseudorep 1 vs. pseudorep 2</td><td></td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudorep-1-vs.-pseudorep-2/Blacklist-filtered-overlap-peak'data-tt-parent-id='Peak/Replicate-2/Pseudorep-1-vs.-pseudorep-2'><td>Blacklist-filtered overlap peak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2-pseudorep1_vs_2/rep2-pr1_vs_rep2-pr2.overlap.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudorep-1-vs.-pseudorep-2/Blacklist-filtered-overlap-peak-(BigBed)'data-tt-parent-id='Peak/Replicate-2/Pseudorep-1-vs.-pseudorep-2'><td>Blacklist-filtered overlap peak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2-pseudorep1_vs_2/rep2-pr1_vs_rep2-pr2.overlap.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudorep-1-vs.-pseudorep-2/Blacklist-filtered-overlap-peak-(hammock)'data-tt-parent-id='Peak/Replicate-2/Pseudorep-1-vs.-pseudorep-2'><td>Blacklist-filtered overlap peak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2-pseudorep1_vs_2/rep2-pr1_vs_rep2-pr2.overlap.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudoreplicate-1'data-tt-parent-id='Peak/Replicate-2'><td>Pseudoreplicate 1</td><td></td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudoreplicate-1/Blacklist-filtered-narrowpeak'data-tt-parent-id='Peak/Replicate-2/Pseudoreplicate-1'><td>Blacklist-filtered narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/pseudorep1/ENCC-K27-1_1.merged.nodup.pr1_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudoreplicate-1/Blacklist-filtered-narrowpeak-(BigBed)'data-tt-parent-id='Peak/Replicate-2/Pseudoreplicate-1'><td>Blacklist-filtered narrowpeak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/pseudorep1/ENCC-K27-1_1.merged.nodup.pr1_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudoreplicate-1/Blacklist-filtered-narrowpeak-(hammock)'data-tt-parent-id='Peak/Replicate-2/Pseudoreplicate-1'><td>Blacklist-filtered narrowpeak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/pseudorep1/ENCC-K27-1_1.merged.nodup.pr1_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudoreplicate-1/Raw-narrowpeak'data-tt-parent-id='Peak/Replicate-2/Pseudoreplicate-1'><td>Raw narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/pseudorep1/ENCC-K27-1_1.merged.nodup.pr1_x_ctl_for_rep2.pval0.01.500K.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudoreplicate-2'data-tt-parent-id='Peak/Replicate-2'><td>Pseudoreplicate 2</td><td></td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudoreplicate-2/Blacklist-filtered-narrowpeak'data-tt-parent-id='Peak/Replicate-2/Pseudoreplicate-2'><td>Blacklist-filtered narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/pseudorep2/ENCC-K27-1_1.merged.nodup.pr2_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudoreplicate-2/Blacklist-filtered-narrowpeak-(BigBed)'data-tt-parent-id='Peak/Replicate-2/Pseudoreplicate-2'><td>Blacklist-filtered narrowpeak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/pseudorep2/ENCC-K27-1_1.merged.nodup.pr2_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudoreplicate-2/Blacklist-filtered-narrowpeak-(hammock)'data-tt-parent-id='Peak/Replicate-2/Pseudoreplicate-2'><td>Blacklist-filtered narrowpeak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/pseudorep2/ENCC-K27-1_1.merged.nodup.pr2_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Pseudoreplicate-2/Raw-narrowpeak'data-tt-parent-id='Peak/Replicate-2/Pseudoreplicate-2'><td>Raw narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/pseudorep2/ENCC-K27-1_1.merged.nodup.pr2_x_ctl_for_rep2.pval0.01.500K.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Blacklist-filtered-narrowpeak'data-tt-parent-id='Peak/Replicate-2'><td>Blacklist-filtered narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Blacklist-filtered-narrowpeak-(BigBed)'data-tt-parent-id='Peak/Replicate-2'><td>Blacklist-filtered narrowpeak (BigBed)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.bb</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Blacklist-filtered-narrowpeak-(hammock)'data-tt-parent-id='Peak/Replicate-2'><td>Blacklist-filtered narrowpeak (hammock)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.hammock.gz</td></tr>
+<tr data-tt-id='Peak/Replicate-2/Raw-narrowpeak'data-tt-parent-id='Peak/Replicate-2'><td>Raw narrowpeak</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/peak/rep2/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.pval0.01.500K.narrowPeak.gz</td></tr>
+<tr data-tt-id='QC-and-logs'><td>QC and logs</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Control-1'data-tt-parent-id='QC-and-logs'><td>Control 1</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Control-1/Dup-QC-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Control-1'><td>Dup QC for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/ctl1/ENCC-I1_1.merged.dup.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Control-1/Library-complexity-QC-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Control-1'><td>Library complexity QC for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/ctl1/ENCC-I1_1.merged.dupmark.lib_complexity.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Control-1/SAMstats-log-for-Raw-BAM'data-tt-parent-id='QC-and-logs/Control-1'><td>SAMstats log for Raw BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/ctl1/ENCC-I1_1.merged.samstats.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Control-1/SAMstats-log-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Control-1'><td>SAMstats log for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/ctl1/ENCC-I1_1.merged.nodup.samstats.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Control-2'data-tt-parent-id='QC-and-logs'><td>Control 2</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Control-2/Dup-QC-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Control-2'><td>Dup QC for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/ctl2/ENCC-I2_1.merged.dup.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Control-2/Library-complexity-QC-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Control-2'><td>Library complexity QC for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/ctl2/ENCC-I2_1.merged.dupmark.lib_complexity.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Control-2/SAMstats-log-for-Raw-BAM'data-tt-parent-id='QC-and-logs/Control-2'><td>SAMstats log for Raw BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/ctl2/ENCC-I2_1.merged.samstats.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Control-2/SAMstats-log-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Control-2'><td>SAMstats log for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/ctl2/ENCC-I2_1.merged.nodup.samstats.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-pseudoreplicate-1-vs.-2'data-tt-parent-id='QC-and-logs'><td>Pooled pseudoreplicate 1 vs. 2</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-pseudoreplicate-1-vs.-2/Fraction-of-IDR-peaks-in-reads'data-tt-parent-id='QC-and-logs/Pooled-pseudoreplicate-1-vs.-2'><td>Fraction of IDR peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.idr0.05.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-pseudoreplicate-1-vs.-2/Fraction-of-overlap-peaks-in-reads'data-tt-parent-id='QC-and-logs/Pooled-pseudoreplicate-1-vs.-2'><td>Fraction of overlap peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.overlap.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-pseudoreplicate-1-vs.-2/IDR-log'data-tt-parent-id='QC-and-logs/Pooled-pseudoreplicate-1-vs.-2'><td>IDR log</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.idr0.05.log</td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-pseudoreplicate-1-vs.-2/IDR-plot'data-tt-parent-id='QC-and-logs/Pooled-pseudoreplicate-1-vs.-2'><td>IDR plot</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/pooled-pseudorep1_vs_2/pooled-pr1_vs_pooled-pr2.idr0.05.unthresholded-peaks.txt.png</td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-replicate'data-tt-parent-id='QC-and-logs'><td>Pooled replicate</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-replicate/Pseudoreplicate-1'data-tt-parent-id='QC-and-logs/Pooled-replicate'><td>Pseudoreplicate 1</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-replicate/Pseudoreplicate-1/Fraction-of-peaks-in-reads'data-tt-parent-id='QC-and-logs/Pooled-replicate/Pseudoreplicate-1'><td>Fraction of peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/pooled-rep/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-replicate/Pseudoreplicate-2'data-tt-parent-id='QC-and-logs/Pooled-replicate'><td>Pseudoreplicate 2</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-replicate/Pseudoreplicate-2/Fraction-of-peaks-in-reads'data-tt-parent-id='QC-and-logs/Pooled-replicate/Pseudoreplicate-2'><td>Fraction of peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/pooled-rep/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Pooled-replicate/Fraction-of-peaks-in-reads'data-tt-parent-id='QC-and-logs/Pooled-replicate'><td>Fraction of peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/pooled-rep/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Rep1-vs.-vs-vs.-rep2'data-tt-parent-id='QC-and-logs'><td>Rep1 vs. vs vs. rep2</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Rep1-vs.-vs-vs.-rep2/Fraction-of-overlap-peaks-in-reads'data-tt-parent-id='QC-and-logs/Rep1-vs.-vs-vs.-rep2'><td>Fraction of overlap peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1_vs_rep2/rep1_vs_rep2.overlap.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1'data-tt-parent-id='QC-and-logs'><td>Replicate 1</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Pseudorep-1-vs.-pseudorep-2'data-tt-parent-id='QC-and-logs/Replicate-1'><td>Pseudorep 1 vs. pseudorep 2</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Pseudorep-1-vs.-pseudorep-2/Fraction-of-overlap-peaks-in-reads'data-tt-parent-id='QC-and-logs/Replicate-1/Pseudorep-1-vs.-pseudorep-2'><td>Fraction of overlap peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1-pseudorep1_vs_2/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Pseudoreplicate-1'data-tt-parent-id='QC-and-logs/Replicate-1'><td>Pseudoreplicate 1</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Pseudoreplicate-1/Fraction-of-peaks-in-reads'data-tt-parent-id='QC-and-logs/Replicate-1/Pseudoreplicate-1'><td>Fraction of peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1/pseudorep1/ENCC-K27-2_1.merged.nodup.pr1_x_ctl_for_rep1.pval0.01.500K.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Pseudoreplicate-2'data-tt-parent-id='QC-and-logs/Replicate-1'><td>Pseudoreplicate 2</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Pseudoreplicate-2/Fraction-of-peaks-in-reads'data-tt-parent-id='QC-and-logs/Replicate-1/Pseudoreplicate-2'><td>Fraction of peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1/pseudorep2/ENCC-K27-2_1.merged.nodup.pr2_x_ctl_for_rep1.pval0.01.500K.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Cross-correlation-Plot'data-tt-parent-id='QC-and-logs/Replicate-1'><td>Cross-correlation Plot</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1/ENCC-K27-2_1.merged.trim_50bp.filt.no_chrM.15M.cc.plot.png</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Cross-correlation-score'data-tt-parent-id='QC-and-logs/Replicate-1'><td>Cross-correlation score</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1/ENCC-K27-2_1.merged.trim_50bp.filt.no_chrM.15M.cc.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Dup-QC-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Replicate-1'><td>Dup QC for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1/ENCC-K27-2_1.merged.dup.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Fraction-of-peaks-in-reads'data-tt-parent-id='QC-and-logs/Replicate-1'><td>Fraction of peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.pval0.01.500K.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/Library-complexity-QC-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Replicate-1'><td>Library complexity QC for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1/ENCC-K27-2_1.merged.dupmark.lib_complexity.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/SAMstats-log-for-Raw-BAM'data-tt-parent-id='QC-and-logs/Replicate-1'><td>SAMstats log for Raw BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1/ENCC-K27-2_1.merged.samstats.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-1/SAMstats-log-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Replicate-1'><td>SAMstats log for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep1/ENCC-K27-2_1.merged.nodup.samstats.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2'data-tt-parent-id='QC-and-logs'><td>Replicate 2</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Pseudorep-1-vs.-pseudorep-2'data-tt-parent-id='QC-and-logs/Replicate-2'><td>Pseudorep 1 vs. pseudorep 2</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Pseudorep-1-vs.-pseudorep-2/Fraction-of-overlap-peaks-in-reads'data-tt-parent-id='QC-and-logs/Replicate-2/Pseudorep-1-vs.-pseudorep-2'><td>Fraction of overlap peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep2-pseudorep1_vs_2/rep2-pr1_vs_rep2-pr2.overlap.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Pseudoreplicate-1'data-tt-parent-id='QC-and-logs/Replicate-2'><td>Pseudoreplicate 1</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Pseudoreplicate-1/Fraction-of-peaks-in-reads'data-tt-parent-id='QC-and-logs/Replicate-2/Pseudoreplicate-1'><td>Fraction of peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep2/pseudorep1/ENCC-K27-1_1.merged.nodup.pr1_x_ctl_for_rep2.pval0.01.500K.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Pseudoreplicate-2'data-tt-parent-id='QC-and-logs/Replicate-2'><td>Pseudoreplicate 2</td><td></td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Pseudoreplicate-2/Fraction-of-peaks-in-reads'data-tt-parent-id='QC-and-logs/Replicate-2/Pseudoreplicate-2'><td>Fraction of peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep2/pseudorep2/ENCC-K27-1_1.merged.nodup.pr2_x_ctl_for_rep2.pval0.01.500K.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Cross-correlation-Plot'data-tt-parent-id='QC-and-logs/Replicate-2'><td>Cross-correlation Plot</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep2/ENCC-K27-1_1.merged.trim_50bp.filt.no_chrM.15M.cc.plot.png</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Cross-correlation-score'data-tt-parent-id='QC-and-logs/Replicate-2'><td>Cross-correlation score</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep2/ENCC-K27-1_1.merged.trim_50bp.filt.no_chrM.15M.cc.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Dup-QC-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Replicate-2'><td>Dup QC for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep2/ENCC-K27-1_1.merged.dup.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Fraction-of-peaks-in-reads'data-tt-parent-id='QC-and-logs/Replicate-2'><td>Fraction of peaks in reads</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep2/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.pval0.01.500K.bfilt.frip.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/Library-complexity-QC-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Replicate-2'><td>Library complexity QC for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep2/ENCC-K27-1_1.merged.dupmark.lib_complexity.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/SAMstats-log-for-Raw-BAM'data-tt-parent-id='QC-and-logs/Replicate-2'><td>SAMstats log for Raw BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep2/ENCC-K27-1_1.merged.samstats.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Replicate-2/SAMstats-log-for-filtered-BAM'data-tt-parent-id='QC-and-logs/Replicate-2'><td>SAMstats log for filtered BAM</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/rep2/ENCC-K27-1_1.merged.nodup.samstats.qc</td></tr>
+<tr data-tt-id='QC-and-logs/Final-HTML-report'data-tt-parent-id='QC-and-logs'><td>Final HTML report</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/qc.html</td></tr>
+<tr data-tt-id='QC-and-logs/Final-QC-JSON-file'data-tt-parent-id='QC-and-logs'><td>Final QC JSON file</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/qc.json</td></tr>
+<tr data-tt-id='QC-and-logs/Jensen-Shannon-distance-plot'data-tt-parent-id='QC-and-logs'><td>Jensen-Shannon distance plot</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/ENCC-K27-2_1.merged.nodup.jsd_plot.png</td></tr>
+<tr data-tt-id='QC-and-logs/Reproducibility-QC-for-IDR-peaks'data-tt-parent-id='QC-and-logs'><td>Reproducibility QC for IDR peaks</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/qc/overlap.reproducibility.qc</td></tr>
+<tr data-tt-id='Signal'><td>Signal</td><td></td></tr>
+<tr data-tt-id='Signal/Pooled-replicate'data-tt-parent-id='Signal'><td>Pooled replicate</td><td></td></tr>
+<tr data-tt-id='Signal/Pooled-replicate/MACS2-signal-track-(fold-enrichment)'data-tt-parent-id='Signal/Pooled-replicate'><td>MACS2 signal track (fold-enrichment)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/signal/pooled-rep/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.fc.signal.bigwig</td></tr>
+<tr data-tt-id='Signal/Pooled-replicate/MACS2-signal-track-(p-val)'data-tt-parent-id='Signal/Pooled-replicate'><td>MACS2 signal track (p-val)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/signal/pooled-rep/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval.signal.bigwig</td></tr>
+<tr data-tt-id='Signal/Replicate-1'data-tt-parent-id='Signal'><td>Replicate 1</td><td></td></tr>
+<tr data-tt-id='Signal/Replicate-1/MACS2-signal-track-(fold-enrichment)'data-tt-parent-id='Signal/Replicate-1'><td>MACS2 signal track (fold-enrichment)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/signal/rep1/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.fc.signal.bigwig</td></tr>
+<tr data-tt-id='Signal/Replicate-1/MACS2-signal-track-(p-val)'data-tt-parent-id='Signal/Replicate-1'><td>MACS2 signal track (p-val)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/signal/rep1/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.pval.signal.bigwig</td></tr>
+<tr data-tt-id='Signal/Replicate-2'data-tt-parent-id='Signal'><td>Replicate 2</td><td></td></tr>
+<tr data-tt-id='Signal/Replicate-2/MACS2-signal-track-(fold-enrichment)'data-tt-parent-id='Signal/Replicate-2'><td>MACS2 signal track (fold-enrichment)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/signal/rep2/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.fc.signal.bigwig</td></tr>
+<tr data-tt-id='Signal/Replicate-2/MACS2-signal-track-(p-val)'data-tt-parent-id='Signal/Replicate-2'><td>MACS2 signal track (p-val)</td><td>/home2/groups/paultam/zxli/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/croo.result/signal/rep2/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.pval.signal.bigwig</td></tr>
+
+    <tbody>
+    </tbody>
+    </table>
+    </div>
+    <div id='task-graph'><b>Task graph</b>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: D Pages: 1 -->
+<svg width="1323pt" height="963pt"
+ viewBox="0.00 0.00 1323.00 963.12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 959.1231)">
+<title>D</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-959.1231 1319,-959.1231 1319,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_pooled_rep</title>
+<polygon fill="#fdf5e6" stroke="#000000" stroke-width=".5" stroke-dasharray="5,2" points="565.5,-106.6518 565.5,-263.6518 944,-263.6518 944,-106.6518 565.5,-106.6518"/>
+<text text-anchor="middle" x="602" y="-252.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Pooled replicate</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_rep1</title>
+<polygon fill="#f0fff0" stroke="#000000" stroke-width=".5" stroke-dasharray="5,2" points="162,-684.6518 162,-841.6518 944,-841.6518 944,-684.6518 162,-684.6518"/>
+<text text-anchor="middle" x="190" y="-830.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Replicate 1</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_rep2</title>
+<polygon fill="#f0fff0" stroke="#000000" stroke-width=".5" stroke-dasharray="5,2" points="162,-271.6518 162,-428.6518 944,-428.6518 944,-271.6518 162,-271.6518"/>
+<text text-anchor="middle" x="190" y="-417.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Replicate 2</text>
+</g>
+<g id="clust12" class="cluster">
+<title>cluster_pooled_ctl</title>
+<polygon fill="#fdf5e6" stroke="#000000" stroke-width=".5" stroke-dasharray="5,2" points="560,-523.6518 560,-575.6518 722,-575.6518 722,-523.6518 560,-523.6518"/>
+<text text-anchor="middle" x="594" y="-564.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Pooled control</text>
+</g>
+<g id="clust13" class="cluster">
+<title>cluster_ctl1</title>
+<polygon fill="#f0fff0" stroke="#000000" stroke-width=".5" stroke-dasharray="5,2" points="8,-436.6518 8,-552.6518 552,-552.6518 552,-436.6518 8,-436.6518"/>
+<text text-anchor="middle" x="33" y="-541.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Control 1</text>
+</g>
+<g id="clust14" class="cluster">
+<title>cluster_ctl2</title>
+<polygon fill="#f0fff0" stroke="#000000" stroke-width=".5" stroke-dasharray="5,2" points="8,-560.6518 8,-676.6518 552,-676.6518 552,-560.6518 8,-560.6518"/>
+<text text-anchor="middle" x="33" y="-665.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Control 2</text>
+</g>
+<!-- &#45;1034571902032946660 -->
+<g id="node1" class="node">
+<title>&#45;1034571902032946660</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="860,-232.6518 736,-232.6518 736,-214.6518 860,-214.6518 860,-232.6518"/>
+<text text-anchor="middle" x="798" y="-221.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.macs2_signal_track_pooled</text>
+</g>
+<!-- 5304685329396452361 -->
+<g id="node2" class="node">
+<title>5304685329396452361</title>
+<g id="a_node2"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-macs2_signal_track_pooled/execution/glob-7ab0340dfeb10ca109917cbdcc568548/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval.signal.bigwig" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;macs2_signal_track_pooled/execution/glob&#45;7ab0340dfeb10ca109917cbdcc568548/ENCC&#45;K27&#45;2_1.merged.nodup.pooled_x_ENCC&#45;I1_1.merged.nodup.pooled.pval.signal.bigwig" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M926.6667,-237.6518C926.6667,-237.6518 891.3333,-237.6518 891.3333,-237.6518 886.6667,-237.6518 882,-232.9852 882,-228.3185 882,-228.3185 882,-218.9852 882,-218.9852 882,-214.3185 886.6667,-209.6518 891.3333,-209.6518 891.3333,-209.6518 926.6667,-209.6518 926.6667,-209.6518 931.3333,-209.6518 936,-214.3185 936,-218.9852 936,-218.9852 936,-228.3185 936,-228.3185 936,-232.9852 931.3333,-237.6518 926.6667,-237.6518"/>
+<text text-anchor="middle" x="909" y="-226.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BW</text>
+<text text-anchor="middle" x="909" y="-216.4518" font-family="Times,serif" font-size="9.00" fill="#000000">p&#45;val</text>
+</a>
+</g>
+</g>
+<!-- &#45;1034571902032946660&#45;&gt;5304685329396452361 -->
+<g id="edge13" class="edge">
+<title>&#45;1034571902032946660&#45;&gt;5304685329396452361</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M860.3138,-223.6518C865.9475,-223.6518 871.4861,-223.6518 876.6926,-223.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="876.7798,-225.4019 881.7797,-223.6518 876.7797,-221.9019 876.7798,-225.4019"/>
+</g>
+<!-- 5951439445021304227 -->
+<g id="node3" class="node">
+<title>5951439445021304227</title>
+<g id="a_node3"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-macs2_signal_track_pooled/execution/glob-8876d8ced974dc46a0c7a4fac20a3a95/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.fc.signal.bigwig" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;macs2_signal_track_pooled/execution/glob&#45;8876d8ced974dc46a0c7a4fac20a3a95/ENCC&#45;K27&#45;2_1.merged.nodup.pooled_x_ENCC&#45;I1_1.merged.nodup.pooled.fc.signal.bigwig" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M926.6667,-202.6518C926.6667,-202.6518 891.3333,-202.6518 891.3333,-202.6518 886.6667,-202.6518 882,-197.9852 882,-193.3185 882,-193.3185 882,-183.9852 882,-183.9852 882,-179.3185 886.6667,-174.6518 891.3333,-174.6518 891.3333,-174.6518 926.6667,-174.6518 926.6667,-174.6518 931.3333,-174.6518 936,-179.3185 936,-183.9852 936,-183.9852 936,-193.3185 936,-193.3185 936,-197.9852 931.3333,-202.6518 926.6667,-202.6518"/>
+<text text-anchor="middle" x="909" y="-191.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BW</text>
+<text text-anchor="middle" x="909" y="-181.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FC</text>
+</a>
+</g>
+</g>
+<!-- &#45;1034571902032946660&#45;&gt;5951439445021304227 -->
+<g id="edge14" class="edge">
+<title>&#45;1034571902032946660&#45;&gt;5951439445021304227</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M826.5853,-214.6385C841.9536,-209.7926 860.9548,-203.8012 876.838,-198.793"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="877.4174,-200.4453 881.6597,-197.2727 876.3649,-197.1073 877.4174,-200.4453"/>
+</g>
+<!-- 1861490231213734968 -->
+<g id="node4" class="node">
+<title>1861490231213734968</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="841.5,-185.6518 754.5,-185.6518 754.5,-167.6518 841.5,-167.6518 841.5,-185.6518"/>
+<text text-anchor="middle" x="798" y="-174.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.call_peak_pooled</text>
+</g>
+<!-- &#45;2242635480217650209 -->
+<g id="node5" class="node">
+<title>&#45;2242635480217650209</title>
+<g id="a_node5"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-call_peak_pooled/execution/glob-2e6c87fc90e45fa5dbda88934d454cd3/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;call_peak_pooled/execution/glob&#45;2e6c87fc90e45fa5dbda88934d454cd3/ENCC&#45;K27&#45;2_1.merged.nodup.pooled_x_ENCC&#45;I1_1.merged.nodup.pooled.pval0.01.500K.bfilt.narrowPeak.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M926.6667,-167.6518C926.6667,-167.6518 891.3333,-167.6518 891.3333,-167.6518 886.6667,-167.6518 882,-162.9852 882,-158.3185 882,-158.3185 882,-148.9852 882,-148.9852 882,-144.3185 886.6667,-139.6518 891.3333,-139.6518 891.3333,-139.6518 926.6667,-139.6518 926.6667,-139.6518 931.3333,-139.6518 936,-144.3185 936,-148.9852 936,-148.9852 936,-158.3185 936,-158.3185 936,-162.9852 931.3333,-167.6518 926.6667,-167.6518"/>
+<text text-anchor="middle" x="909" y="-156.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Peak</text>
+<text text-anchor="middle" x="909" y="-146.4518" font-family="Times,serif" font-size="9.00" fill="#000000">(bfilt)</text>
+</a>
+</g>
+</g>
+<!-- 1861490231213734968&#45;&gt;&#45;2242635480217650209 -->
+<g id="edge36" class="edge">
+<title>1861490231213734968&#45;&gt;&#45;2242635480217650209</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M841.5516,-167.6276C853.3497,-165.183 865.9041,-162.5816 876.9426,-160.2944"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="877.3587,-161.9954 881.8996,-159.2672 876.6485,-158.5682 877.3587,-161.9954"/>
+</g>
+<!-- 2298034028955289220 -->
+<g id="node6" class="node">
+<title>2298034028955289220</title>
+<g id="a_node6"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-call_peak_pooled/execution/glob-254907fcd430d7e6c9bf67ac4585adb4/ENCC-K27-2_1.merged.nodup.pooled_x_ENCC-I1_1.merged.nodup.pooled.pval0.01.500K.narrowPeak.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;call_peak_pooled/execution/glob&#45;254907fcd430d7e6c9bf67ac4585adb4/ENCC&#45;K27&#45;2_1.merged.nodup.pooled_x_ENCC&#45;I1_1.merged.nodup.pooled.pval0.01.500K.narrowPeak.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M930,-132.6518C930,-132.6518 888,-132.6518 888,-132.6518 885,-132.6518 882,-129.6518 882,-126.6518 882,-126.6518 882,-120.6518 882,-120.6518 882,-117.6518 885,-114.6518 888,-114.6518 888,-114.6518 930,-114.6518 930,-114.6518 933,-114.6518 936,-117.6518 936,-120.6518 936,-120.6518 936,-126.6518 936,-126.6518 936,-129.6518 933,-132.6518 930,-132.6518"/>
+<text text-anchor="middle" x="909" y="-121.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Peak</text>
+</a>
+</g>
+</g>
+<!-- 1861490231213734968&#45;&gt;2298034028955289220 -->
+<g id="edge35" class="edge">
+<title>1861490231213734968&#45;&gt;2298034028955289220</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M817.0816,-167.5408C835.9038,-158.5536 864.7315,-144.789 885.0761,-135.075"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="886.038,-136.555 889.796,-132.8213 884.5298,-133.3966 886.038,-136.555"/>
+</g>
+<!-- &#45;2789792544986436734 -->
+<g id="node71" class="node">
+<title>&#45;2789792544986436734</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="1019.5,-241.6518 965.5,-241.6518 965.5,-223.6518 1019.5,-223.6518 1019.5,-241.6518"/>
+<text text-anchor="middle" x="992.5" y="-230.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.idr_ppr</text>
+</g>
+<!-- 2298034028955289220&#45;&gt;&#45;2789792544986436734 -->
+<g id="edge37" class="edge">
+<title>2298034028955289220&#45;&gt;&#45;2789792544986436734</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M936.0802,-130.3813C939.0638,-132.0334 941.8089,-134.0906 944,-136.6518 964.3416,-160.4296 941.552,-179.0319 958,-205.6518 961.5681,-211.4266 966.8416,-216.4565 972.1977,-220.559"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="971.2055,-222.0011 976.2827,-223.5125 973.2561,-219.1648 971.2055,-222.0011"/>
+</g>
+<!-- 1298892941294475154 -->
+<g id="node74" class="node">
+<title>1298892941294475154</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="1019.5,-171.6518 965.5,-171.6518 965.5,-153.6518 1019.5,-153.6518 1019.5,-171.6518"/>
+<text text-anchor="middle" x="992.5" y="-160.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.overlap</text>
+</g>
+<!-- 2298034028955289220&#45;&gt;1298892941294475154 -->
+<g id="edge38" class="edge">
+<title>2298034028955289220&#45;&gt;1298892941294475154</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M934.7774,-132.7684C937.9105,-134.0107 941.0458,-135.3189 944,-136.6518 953.405,-140.8955 963.5064,-146.186 972.0429,-150.8848"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="971.3896,-152.5239 976.61,-153.424 973.0903,-149.4648 971.3896,-152.5239"/>
+</g>
+<!-- &#45;6293012349078827657 -->
+<g id="node79" class="node">
+<title>&#45;6293012349078827657</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="1027,-201.6518 958,-201.6518 958,-183.6518 1027,-183.6518 1027,-201.6518"/>
+<text text-anchor="middle" x="992.5" y="-190.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.overlap_ppr</text>
+</g>
+<!-- 2298034028955289220&#45;&gt;&#45;6293012349078827657 -->
+<g id="edge39" class="edge">
+<title>2298034028955289220&#45;&gt;&#45;6293012349078827657</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M936.0888,-130.8816C938.9969,-132.4475 941.7209,-134.3475 944,-136.6518 956.9506,-149.7455 945.7351,-161.9138 958,-175.6518 959.637,-177.4855 961.5166,-179.1433 963.5352,-180.638"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="962.7038,-182.186 967.8406,-183.4808 964.6324,-179.2653 962.7038,-182.186"/>
+</g>
+<!-- 1353927870727597322 -->
+<g id="node7" class="node">
+<title>1353927870727597322</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="627.5,-237.6518 573.5,-237.6518 573.5,-219.6518 627.5,-219.6518 627.5,-237.6518"/>
+<text text-anchor="middle" x="600.5" y="-226.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.pool_ta</text>
+</g>
+<!-- &#45;6234064312791206353 -->
+<g id="node8" class="node">
+<title>&#45;6234064312791206353</title>
+<g id="a_node8"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-pool_ta/execution/glob-199637d3015dccbe277f621a18be9eb4/ENCC-K27-2_1.merged.nodup.pooled.tagAlign.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;pool_ta/execution/glob&#45;199637d3015dccbe277f621a18be9eb4/ENCC&#45;K27&#45;2_1.merged.nodup.pooled.tagAlign.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M708,-232.6518C708,-232.6518 661,-232.6518 661,-232.6518 658,-232.6518 655,-229.6518 655,-226.6518 655,-226.6518 655,-220.6518 655,-220.6518 655,-217.6518 658,-214.6518 661,-214.6518 661,-214.6518 708,-214.6518 708,-214.6518 711,-214.6518 714,-217.6518 714,-220.6518 714,-220.6518 714,-226.6518 714,-226.6518 714,-229.6518 711,-232.6518 708,-232.6518"/>
+<text text-anchor="middle" x="684.5" y="-221.4518" font-family="Times,serif" font-size="9.00" fill="#000000">TAG&#45;ALIGN</text>
+</a>
+</g>
+</g>
+<!-- 1353927870727597322&#45;&gt;&#45;6234064312791206353 -->
+<g id="edge52" class="edge">
+<title>1353927870727597322&#45;&gt;&#45;6234064312791206353</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M627.5405,-227.0423C634.6327,-226.6201 642.3795,-226.159 649.8112,-225.7166"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="650.0068,-227.4582 654.894,-225.4141 649.7988,-223.9644 650.0068,-227.4582"/>
+</g>
+<!-- &#45;6234064312791206353&#45;&gt;&#45;1034571902032946660 -->
+<g id="edge62" class="edge">
+<title>&#45;6234064312791206353&#45;&gt;&#45;1034571902032946660</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M714.0245,-223.6518C719.1539,-223.6518 724.6722,-223.6518 730.3414,-223.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="730.5835,-225.4019 735.5835,-223.6518 730.5835,-221.9019 730.5835,-225.4019"/>
+</g>
+<!-- &#45;6234064312791206353&#45;&gt;1861490231213734968 -->
+<g id="edge61" class="edge">
+<title>&#45;6234064312791206353&#45;&gt;1861490231213734968</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M706.3839,-214.5898C724.9905,-206.8848 751.7614,-195.7991 771.563,-187.5993"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="772.2332,-189.216 776.1832,-185.6861 770.8941,-185.9823 772.2332,-189.216"/>
+</g>
+<!-- &#45;383122411646046888 -->
+<g id="node9" class="node">
+<title>&#45;383122411646046888</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="827.5,-735.6518 768.5,-735.6518 768.5,-717.6518 827.5,-717.6518 827.5,-735.6518"/>
+<text text-anchor="middle" x="798" y="-724.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.call_peak</text>
+</g>
+<!-- &#45;6234064312791206353&#45;&gt;&#45;383122411646046888 -->
+<g id="edge54" class="edge">
+<title>&#45;6234064312791206353&#45;&gt;&#45;383122411646046888</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M694.9723,-232.9048C704.0067,-241.6211 716.4497,-255.5648 722,-270.6518 739.003,-316.8703 704.3553,-675.9178 736,-713.6518 742.7413,-721.6903 753.0671,-725.5432 763.3701,-727.2136"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="763.2268,-728.9596 768.4103,-727.8671 763.6769,-725.4887 763.2268,-728.9596"/>
+</g>
+<!-- 6968183376448782283 -->
+<g id="node23" class="node">
+<title>6968183376448782283</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="846,-710.6518 750,-710.6518 750,-692.6518 846,-692.6518 846,-710.6518"/>
+<text text-anchor="middle" x="798" y="-699.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.macs2_signal_track</text>
+</g>
+<!-- &#45;6234064312791206353&#45;&gt;6968183376448782283 -->
+<g id="edge56" class="edge">
+<title>&#45;6234064312791206353&#45;&gt;6968183376448782283</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M694.7714,-232.982C703.6705,-241.7502 716.0278,-255.7268 722,-270.6518 748.3548,-336.5147 724.9804,-359.5729 736,-429.6518 751.6964,-529.4734 782.9877,-647.2482 794.0298,-687.414"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="792.3739,-687.9921 795.3914,-692.3461 795.7477,-687.0607 792.3739,-687.9921"/>
+</g>
+<!-- &#45;7345637386993682412 -->
+<g id="node28" class="node">
+<title>&#45;7345637386993682412</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="827.5,-351.6518 768.5,-351.6518 768.5,-333.6518 827.5,-333.6518 827.5,-351.6518"/>
+<text text-anchor="middle" x="798" y="-340.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.call_peak</text>
+</g>
+<!-- &#45;6234064312791206353&#45;&gt;&#45;7345637386993682412 -->
+<g id="edge57" class="edge">
+<title>&#45;6234064312791206353&#45;&gt;&#45;7345637386993682412</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M693.4062,-232.9896C713.5458,-254.1052 762.6257,-305.5634 785.6689,-329.7232"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="784.4179,-330.9471 789.1352,-333.3575 786.9506,-328.5315 784.4179,-330.9471"/>
+</g>
+<!-- &#45;2752761699690020845 -->
+<g id="node42" class="node">
+<title>&#45;2752761699690020845</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="846,-399.6518 750,-399.6518 750,-381.6518 846,-381.6518 846,-399.6518"/>
+<text text-anchor="middle" x="798" y="-388.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.macs2_signal_track</text>
+</g>
+<!-- &#45;6234064312791206353&#45;&gt;&#45;2752761699690020845 -->
+<g id="edge58" class="edge">
+<title>&#45;6234064312791206353&#45;&gt;&#45;2752761699690020845</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M694.1675,-232.7523C702.9065,-241.5739 715.3845,-255.7718 722,-270.6518 737.5538,-305.6369 714.0649,-324.2714 736,-355.6518 743.3117,-366.112 754.8109,-373.8279 765.9303,-379.3117"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="765.389,-380.9906 770.6593,-381.5267 766.8737,-377.821 765.389,-380.9906"/>
+</g>
+<!-- &#45;6234064312791206353&#45;&gt;&#45;2789792544986436734 -->
+<g id="edge53" class="edge">
+<title>&#45;6234064312791206353&#45;&gt;&#45;2789792544986436734</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M690.3692,-214.3675C698.9357,-201.5116 716.0351,-178.3309 736,-164.6518 814.6982,-110.7312 871.7453,-49.3615 944,-111.6518 975.9915,-139.2315 936.7455,-169.1506 958,-205.6518 961.4158,-211.5179 966.6432,-216.5755 972.0038,-220.6754"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="971.0201,-222.1234 976.1013,-223.6213 973.0632,-219.2816 971.0201,-222.1234"/>
+</g>
+<!-- &#45;6234064312791206353&#45;&gt;1298892941294475154 -->
+<g id="edge59" class="edge">
+<title>&#45;6234064312791206353&#45;&gt;1298892941294475154</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M685.8864,-214.6199C690.9653,-182.8433 709.6422,-77.0717 736,-57.6518 810.4261,-2.8163 866.3285,-8.5189 944,-58.6518 975.3024,-78.8559 986.753,-125.0393 990.6515,-148.4648"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="988.9572,-148.9605 991.4498,-153.6348 992.4162,-148.4263 988.9572,-148.9605"/>
+</g>
+<!-- 4731151964785008152 -->
+<g id="node76" class="node">
+<title>4731151964785008152</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="1236,-429.6518 1128,-429.6518 1128,-411.6518 1236,-411.6518 1236,-429.6518"/>
+<text text-anchor="middle" x="1182" y="-418.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.reproducibility_overlap</text>
+</g>
+<!-- &#45;6234064312791206353&#45;&gt;4731151964785008152 -->
+<g id="edge55" class="edge">
+<title>&#45;6234064312791206353&#45;&gt;4731151964785008152</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M685.4853,-214.4869C689.5106,-178.8982 705.9365,-50.6058 736,-25.6518 795.3055,23.5743 831.9264,-13.6518 909,-13.6518 909,-13.6518 909,-13.6518 992.5,-13.6518 1013.4202,-13.6518 1088.7579,-27.919 1106,-46.6518 1156.0902,-101.0728 1176.616,-345.0303 1181.0467,-406.5368"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1179.3061,-406.7328 1181.4042,-411.597 1182.7974,-406.486 1179.3061,-406.7328"/>
+</g>
+<!-- &#45;6234064312791206353&#45;&gt;&#45;6293012349078827657 -->
+<g id="edge60" class="edge">
+<title>&#45;6234064312791206353&#45;&gt;&#45;6293012349078827657</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M686.1376,-214.3705C691.7569,-183.6921 711.2796,-86.4875 736,-68.6518 754.7422,-55.1295 926.6302,-53.4067 944,-68.6518 980.0463,-100.289 930.0733,-136.6603 958,-175.6518 959.2685,-177.4229 960.774,-179.0186 962.4355,-180.455"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="961.5019,-181.9417 966.5573,-183.5247 963.5925,-179.1346 961.5019,-181.9417"/>
+</g>
+<!-- 5135653011612669564 -->
+<g id="node10" class="node">
+<title>5135653011612669564</title>
+<g id="a_node10"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-call_peak/shard-0/execution/glob-2e6c87fc90e45fa5dbda88934d454cd3/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;call_peak/shard&#45;0/execution/glob&#45;2e6c87fc90e45fa5dbda88934d454cd3/ENCC&#45;K27&#45;2_1.merged.nodup_x_ctl_for_rep1.pval0.01.500K.bfilt.narrowPeak.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M926.6667,-815.6518C926.6667,-815.6518 891.3333,-815.6518 891.3333,-815.6518 886.6667,-815.6518 882,-810.9852 882,-806.3185 882,-806.3185 882,-796.9852 882,-796.9852 882,-792.3185 886.6667,-787.6518 891.3333,-787.6518 891.3333,-787.6518 926.6667,-787.6518 926.6667,-787.6518 931.3333,-787.6518 936,-792.3185 936,-796.9852 936,-796.9852 936,-806.3185 936,-806.3185 936,-810.9852 931.3333,-815.6518 926.6667,-815.6518"/>
+<text text-anchor="middle" x="909" y="-804.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Peak</text>
+<text text-anchor="middle" x="909" y="-794.4518" font-family="Times,serif" font-size="9.00" fill="#000000">(bfilt)</text>
+</a>
+</g>
+</g>
+<!-- &#45;383122411646046888&#45;&gt;5135653011612669564 -->
+<g id="edge6" class="edge">
+<title>&#45;383122411646046888&#45;&gt;5135653011612669564</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M811.3615,-735.768C827.9147,-747.0502 856.9934,-766.8323 882,-783.6518 882.4675,-783.9663 882.9396,-784.2836 883.4154,-784.6031"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="882.6374,-786.1884 887.7651,-787.5189 884.5863,-783.2812 882.6374,-786.1884"/>
+</g>
+<!-- 2295463810633285296 -->
+<g id="node11" class="node">
+<title>2295463810633285296</title>
+<g id="a_node11"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-call_peak/shard-0/execution/glob-254907fcd430d7e6c9bf67ac4585adb4/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.pval0.01.500K.narrowPeak.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;call_peak/shard&#45;0/execution/glob&#45;254907fcd430d7e6c9bf67ac4585adb4/ENCC&#45;K27&#45;2_1.merged.nodup_x_ctl_for_rep1.pval0.01.500K.narrowPeak.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M930,-780.6518C930,-780.6518 888,-780.6518 888,-780.6518 885,-780.6518 882,-777.6518 882,-774.6518 882,-774.6518 882,-768.6518 882,-768.6518 882,-765.6518 885,-762.6518 888,-762.6518 888,-762.6518 930,-762.6518 930,-762.6518 933,-762.6518 936,-765.6518 936,-768.6518 936,-768.6518 936,-774.6518 936,-774.6518 936,-777.6518 933,-780.6518 930,-780.6518"/>
+<text text-anchor="middle" x="909" y="-769.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Peak</text>
+</a>
+</g>
+</g>
+<!-- &#45;383122411646046888&#45;&gt;2295463810633285296 -->
+<g id="edge5" class="edge">
+<title>&#45;383122411646046888&#45;&gt;2295463810633285296</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M820.4625,-735.7583C838.216,-742.9556 863.0607,-753.0278 881.9146,-760.6713"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="881.2797,-762.3022 886.5709,-762.559 882.5947,-759.0586 881.2797,-762.3022"/>
+</g>
+<!-- 2295463810633285296&#45;&gt;1298892941294475154 -->
+<g id="edge7" class="edge">
+<title>2295463810633285296&#45;&gt;1298892941294475154</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M936.1879,-765.4654C939.2345,-763.727 941.9671,-761.5013 944,-758.6518 981.31,-706.3558 924.036,-235.1804 958,-180.6518 959.3149,-178.5409 960.965,-176.6648 962.8267,-174.9997"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="964.0037,-176.3024 966.9058,-171.8706 961.8734,-173.5254 964.0037,-176.3024"/>
+</g>
+<!-- 2295463810633285296&#45;&gt;4731151964785008152 -->
+<g id="edge8" class="edge">
+<title>2295463810633285296&#45;&gt;4731151964785008152</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M936.2477,-763.4339C938.9948,-762.0572 941.638,-760.4716 944,-758.6518 1067.9438,-663.1584 1153.3914,-485.1795 1176.0211,-434.4623"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1177.7072,-434.9763 1178.1293,-429.6957 1174.5063,-433.5605 1177.7072,-434.9763"/>
+</g>
+<!-- 4494548617069691352 -->
+<g id="node12" class="node">
+<title>4494548617069691352</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="627.5,-715.6518 573.5,-715.6518 573.5,-697.6518 627.5,-697.6518 627.5,-715.6518"/>
+<text text-anchor="middle" x="600.5" y="-704.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.bam2ta</text>
+</g>
+<!-- 7561736281301790700 -->
+<g id="node13" class="node">
+<title>7561736281301790700</title>
+<g id="a_node13"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-bam2ta/shard-0/execution/glob-199637d3015dccbe277f621a18be9eb4/ENCC-K27-2_1.merged.nodup.tagAlign.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;bam2ta/shard&#45;0/execution/glob&#45;199637d3015dccbe277f621a18be9eb4/ENCC&#45;K27&#45;2_1.merged.nodup.tagAlign.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M708,-715.6518C708,-715.6518 661,-715.6518 661,-715.6518 658,-715.6518 655,-712.6518 655,-709.6518 655,-709.6518 655,-703.6518 655,-703.6518 655,-700.6518 658,-697.6518 661,-697.6518 661,-697.6518 708,-697.6518 708,-697.6518 711,-697.6518 714,-700.6518 714,-703.6518 714,-703.6518 714,-709.6518 714,-709.6518 714,-712.6518 711,-715.6518 708,-715.6518"/>
+<text text-anchor="middle" x="684.5" y="-704.4518" font-family="Times,serif" font-size="9.00" fill="#000000">TAG&#45;ALIGN</text>
+</a>
+</g>
+</g>
+<!-- 4494548617069691352&#45;&gt;7561736281301790700 -->
+<g id="edge17" class="edge">
+<title>4494548617069691352&#45;&gt;7561736281301790700</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M627.5405,-706.6518C634.6327,-706.6518 642.3795,-706.6518 649.8112,-706.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="649.894,-708.4019 654.894,-706.6518 649.8939,-704.9019 649.894,-708.4019"/>
+</g>
+<!-- 7561736281301790700&#45;&gt;1353927870727597322 -->
+<g id="edge19" class="edge">
+<title>7561736281301790700&#45;&gt;1353927870727597322</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M681.9465,-697.6002C676.1226,-676.5642 661.8346,-622.6649 655,-576.6518 644.9834,-509.2162 657.346,-334.3321 633,-270.6518 628.8885,-259.8978 621.0551,-249.6416 614.109,-241.9565"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="615.0658,-240.418 610.3706,-237.9647 612.5111,-242.8105 615.0658,-240.418"/>
+</g>
+<!-- 7561736281301790700&#45;&gt;&#45;383122411646046888 -->
+<g id="edge23" class="edge">
+<title>7561736281301790700&#45;&gt;&#45;383122411646046888</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M714.0245,-711.8544C729.0135,-714.4956 747.3233,-717.722 763.0161,-720.4873"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="763.0012,-722.2615 768.229,-721.4059 763.6086,-718.8146 763.0012,-722.2615"/>
+</g>
+<!-- 7561736281301790700&#45;&gt;6968183376448782283 -->
+<g id="edge20" class="edge">
+<title>7561736281301790700&#45;&gt;6968183376448782283</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M714.0245,-705.3512C723.3945,-704.9384 734.0623,-704.4685 744.5773,-704.0053"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="744.8024,-705.7471 749.7205,-703.7787 744.6483,-702.2505 744.8024,-705.7471"/>
+</g>
+<!-- 7561736281301790700&#45;&gt;&#45;7345637386993682412 -->
+<g id="edge24" class="edge">
+<title>7561736281301790700&#45;&gt;&#45;7345637386993682412</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M688.4329,-697.4072C696.3737,-678.2685 714.225,-632.7414 722,-592.6518 731.0736,-545.8664 710.8862,-419.155 736,-378.6518 742.8296,-367.6371 754.3606,-359.6269 765.6385,-353.9993"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="766.6677,-355.4488 770.442,-351.7316 765.1734,-352.2837 766.6677,-355.4488"/>
+</g>
+<!-- 7561736281301790700&#45;&gt;&#45;2752761699690020845 -->
+<g id="edge25" class="edge">
+<title>7561736281301790700&#45;&gt;&#45;2752761699690020845</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M688.0938,-697.3996C694.8647,-679.9168 709.9169,-640.8068 722,-607.6518 749.7646,-531.4682 781.3188,-439.558 793.1674,-404.8459"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="794.9384,-405.0743 794.8962,-399.777 791.6258,-403.9444 794.9384,-405.0743"/>
+</g>
+<!-- 7561736281301790700&#45;&gt;&#45;2789792544986436734 -->
+<g id="edge21" class="edge">
+<title>7561736281301790700&#45;&gt;&#45;2789792544986436734</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M686.9858,-715.9483C693.0404,-738.6163 709.0076,-798.5481 722,-848.6518 728.3314,-873.0682 716.0852,-888.1712 736,-903.6518 754.2467,-917.8357 927.0792,-919.3938 944,-903.6518 968.9433,-880.4464 988.7115,-342.0213 992.014,-246.9335"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="993.7681,-246.8437 992.1917,-241.7863 990.2702,-246.7229 993.7681,-246.8437"/>
+</g>
+<!-- 7561736281301790700&#45;&gt;4731151964785008152 -->
+<g id="edge18" class="edge">
+<title>7561736281301790700&#45;&gt;4731151964785008152</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M687.1056,-715.9184C693.4262,-738.52 709.9395,-798.3157 722,-848.6518 728.8856,-877.3898 713.8333,-894.1091 736,-913.6518 764.9457,-939.1711 870.4113,-928.6518 909,-928.6518 909,-928.6518 909,-928.6518 992.5,-928.6518 1007.0602,-928.6518 1068.913,-870.9497 1106,-793.6518 1168.0619,-664.3006 1179.5187,-486.1006 1181.5677,-434.9186"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1183.3195,-434.8997 1181.7562,-429.8382 1179.8219,-434.7699 1183.3195,-434.8997"/>
+</g>
+<!-- 7561736281301790700&#45;&gt;&#45;6293012349078827657 -->
+<g id="edge22" class="edge">
+<title>7561736281301790700&#45;&gt;&#45;6293012349078827657</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M686.3081,-715.8103C692.3092,-745.1772 712.5241,-836.0391 736,-852.6518 811.4613,-906.052 877.912,-917.292 944,-852.6518 969.1069,-828.095 942.5477,-252.1895 958,-220.6518 961.0292,-214.4693 966.1396,-209.1944 971.5117,-204.9457"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="972.6567,-206.2757 975.6408,-201.8987 970.5785,-203.4595 972.6567,-206.2757"/>
+</g>
+<!-- 6462557951063112289 -->
+<g id="node14" class="node">
+<title>6462557951063112289</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="458,-746.6518 404,-746.6518 404,-728.6518 458,-728.6518 458,-746.6518"/>
+<text text-anchor="middle" x="431" y="-735.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.filter</text>
+</g>
+<!-- &#45;878040205932966461 -->
+<g id="node15" class="node">
+<title>&#45;878040205932966461</title>
+<g id="a_node15"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter/shard-0/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/ENCC-K27-2_1.merged.nodup.samstats.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter/shard&#45;0/execution/glob&#45;7b38d9959cf6f3deb83ac2bd156d8317/ENCC&#45;K27&#45;2_1.merged.nodup.samstats.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="514.5" cy="-764.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="514.5" y="-766.8518" font-family="Times,serif" font-size="6.00" fill="#000000">SAMstats</text>
+<text text-anchor="middle" x="514.5" y="-759.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- 6462557951063112289&#45;&gt;&#45;878040205932966461 -->
+<g id="edge63" class="edge">
+<title>6462557951063112289&#45;&gt;&#45;878040205932966461</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M458.341,-746.4926C468.2237,-749.6882 479.334,-753.2808 489.0481,-756.4219"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="488.6908,-758.1455 493.9867,-758.0188 489.7677,-754.8153 488.6908,-758.1455"/>
+</g>
+<!-- &#45;688153828686666337 -->
+<g id="node16" class="node">
+<title>&#45;688153828686666337</title>
+<g id="a_node16"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter/shard-0/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/ENCC-K27-2_1.merged.nodup.bam" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter/shard&#45;0/execution/glob&#45;3bcbe4e7489c90f75e0523ac6f3a9385/ENCC&#45;K27&#45;2_1.merged.nodup.bam" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M532.1667,-720.6518C532.1667,-720.6518 496.8333,-720.6518 496.8333,-720.6518 492.1667,-720.6518 487.5,-715.9852 487.5,-711.3185 487.5,-711.3185 487.5,-701.9852 487.5,-701.9852 487.5,-697.3185 492.1667,-692.6518 496.8333,-692.6518 496.8333,-692.6518 532.1667,-692.6518 532.1667,-692.6518 536.8333,-692.6518 541.5,-697.3185 541.5,-701.9852 541.5,-701.9852 541.5,-711.3185 541.5,-711.3185 541.5,-715.9852 536.8333,-720.6518 532.1667,-720.6518"/>
+<text text-anchor="middle" x="514.5" y="-709.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Filt/deduped</text>
+<text text-anchor="middle" x="514.5" y="-699.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BAM</text>
+</a>
+</g>
+</g>
+<!-- 6462557951063112289&#45;&gt;&#45;688153828686666337 -->
+<g id="edge65" class="edge">
+<title>6462557951063112289&#45;&gt;&#45;688153828686666337</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M455.6011,-728.5185C464.0438,-725.3841 473.6189,-721.8293 482.558,-718.5105"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="483.3693,-720.0761 487.4476,-716.6952 482.1511,-716.7949 483.3693,-720.0761"/>
+</g>
+<!-- &#45;3399890575276176930 -->
+<g id="node17" class="node">
+<title>&#45;3399890575276176930</title>
+<g id="a_node17"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter/shard-0/execution/glob-57d0acc485690c2359d57a5a21e0aedb/ENCC-K27-2_1.merged.dupmark.lib_complexity.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter/shard&#45;0/execution/glob&#45;57d0acc485690c2359d57a5a21e0aedb/ENCC&#45;K27&#45;2_1.merged.dupmark.lib_complexity.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="514.5" cy="-737.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="514.5" y="-739.8518" font-family="Times,serif" font-size="6.00" fill="#000000">LibCmplx</text>
+<text text-anchor="middle" x="514.5" y="-732.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- 6462557951063112289&#45;&gt;&#45;3399890575276176930 -->
+<g id="edge64" class="edge">
+<title>6462557951063112289&#45;&gt;&#45;3399890575276176930</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M458.341,-737.6518C465.9154,-737.6518 474.2109,-737.6518 482.0463,-737.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="482.3828,-739.4019 487.3827,-737.6518 482.3827,-735.9019 482.3828,-739.4019"/>
+</g>
+<!-- &#45;688153828686666337&#45;&gt;4494548617069691352 -->
+<g id="edge66" class="edge">
+<title>&#45;688153828686666337&#45;&gt;4494548617069691352</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M541.7109,-706.6518C550.1058,-706.6518 559.433,-706.6518 568.1393,-706.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="568.4661,-708.4019 573.4661,-706.6518 568.466,-704.9019 568.4661,-708.4019"/>
+</g>
+<!-- &#45;6746542681116105075 -->
+<g id="node81" class="node">
+<title>&#45;6746542681116105075</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="627.5,-676.6518 573.5,-676.6518 573.5,-658.6518 627.5,-658.6518 627.5,-676.6518"/>
+<text text-anchor="middle" x="600.5" y="-665.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.jsd</text>
+</g>
+<!-- &#45;688153828686666337&#45;&gt;&#45;6746542681116105075 -->
+<g id="edge67" class="edge">
+<title>&#45;688153828686666337&#45;&gt;&#45;6746542681116105075</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M541.2494,-692.6173C547.3606,-689.5547 553.8636,-686.4079 560,-683.6518 563.6853,-681.9966 567.5967,-680.3353 571.4793,-678.7425"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="572.3837,-680.2645 576.3626,-676.7672 571.0712,-677.0199 572.3837,-680.2645"/>
+</g>
+<!-- &#45;7985571792108496048 -->
+<g id="node18" class="node">
+<title>&#45;7985571792108496048</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="300.5,-742.6518 246.5,-742.6518 246.5,-724.6518 300.5,-724.6518 300.5,-742.6518"/>
+<text text-anchor="middle" x="273.5" y="-731.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.align</text>
+</g>
+<!-- &#45;8512422588517799099 -->
+<g id="node19" class="node">
+<title>&#45;8512422588517799099</title>
+<g id="a_node19"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-align/shard-0/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/ENCC-K27-2_1.merged.samstats.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;align/shard&#45;0/execution/glob&#45;7b38d9959cf6f3deb83ac2bd156d8317/ENCC&#45;K27&#45;2_1.merged.samstats.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="350" cy="-711.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="350" y="-713.8518" font-family="Times,serif" font-size="6.00" fill="#000000">SAMstats</text>
+<text text-anchor="middle" x="350" y="-706.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- &#45;7985571792108496048&#45;&gt;&#45;8512422588517799099 -->
+<g id="edge88" class="edge">
+<title>&#45;7985571792108496048&#45;&gt;&#45;8512422588517799099</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M300.6864,-725.8335C308.0839,-723.7062 316.0853,-721.4051 323.4472,-719.2879"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="324.1048,-720.9198 328.4264,-717.856 323.1374,-717.5562 324.1048,-720.9198"/>
+</g>
+<!-- &#45;2818975422252647690 -->
+<g id="node20" class="node">
+<title>&#45;2818975422252647690</title>
+<g id="a_node20"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-align/shard-0/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/ENCC-K27-2_1.merged.bam" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;align/shard&#45;0/execution/glob&#45;3bcbe4e7489c90f75e0523ac6f3a9385/ENCC&#45;K27&#45;2_1.merged.bam" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M371,-746.6518C371,-746.6518 329,-746.6518 329,-746.6518 326,-746.6518 323,-743.6518 323,-740.6518 323,-740.6518 323,-734.6518 323,-734.6518 323,-731.6518 326,-728.6518 329,-728.6518 329,-728.6518 371,-728.6518 371,-728.6518 374,-728.6518 377,-731.6518 377,-734.6518 377,-734.6518 377,-740.6518 377,-740.6518 377,-743.6518 374,-746.6518 371,-746.6518"/>
+<text text-anchor="middle" x="350" y="-735.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BAM</text>
+</a>
+</g>
+</g>
+<!-- &#45;7985571792108496048&#45;&gt;&#45;2818975422252647690 -->
+<g id="edge87" class="edge">
+<title>&#45;7985571792108496048&#45;&gt;&#45;2818975422252647690</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M300.6864,-735.0734C306.2104,-735.3622 312.0711,-735.6686 317.7508,-735.9656"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="317.8165,-737.7213 322.9011,-736.2349 317.9993,-734.2261 317.8165,-737.7213"/>
+</g>
+<!-- &#45;2818975422252647690&#45;&gt;6462557951063112289 -->
+<g id="edge89" class="edge">
+<title>&#45;2818975422252647690&#45;&gt;6462557951063112289</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M377.4229,-737.6518C384.2255,-737.6518 391.5796,-737.6518 398.5957,-737.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="398.8804,-739.4019 403.8803,-737.6518 398.8803,-735.9019 398.8804,-739.4019"/>
+</g>
+<!-- &#45;8767117070251245675 -->
+<g id="node21" class="node">
+<title>&#45;8767117070251245675</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="300.5,-774.6518 246.5,-774.6518 246.5,-756.6518 300.5,-756.6518 300.5,-774.6518"/>
+<text text-anchor="middle" x="273.5" y="-763.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.xcor</text>
+</g>
+<!-- &#45;7030579267404229075 -->
+<g id="node22" class="node">
+<title>&#45;7030579267404229075</title>
+<g id="a_node22"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-xcor/shard-0/execution/glob-c0eba07eee633b4055d7d9d85813fdf5/ENCC-K27-2_1.merged.trim_50bp.filt.no_chrM.15M.cc.plot.png" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;xcor/shard&#45;0/execution/glob&#45;c0eba07eee633b4055d7d9d85813fdf5/ENCC&#45;K27&#45;2_1.merged.trim_50bp.filt.no_chrM.15M.cc.plot.png" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="350" cy="-765.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="350" y="-767.8518" font-family="Times,serif" font-size="6.00" fill="#000000">XCOR</text>
+<text text-anchor="middle" x="350" y="-760.8518" font-family="Times,serif" font-size="6.00" fill="#000000">Plot</text>
+</a>
+</g>
+</g>
+<!-- &#45;8767117070251245675&#45;&gt;&#45;7030579267404229075 -->
+<g id="edge109" class="edge">
+<title>&#45;8767117070251245675&#45;&gt;&#45;7030579267404229075</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M300.6864,-765.6518C306.2104,-765.6518 312.0711,-765.6518 317.7508,-765.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="317.9011,-767.4019 322.9011,-765.6518 317.9011,-763.9019 317.9011,-767.4019"/>
+</g>
+<!-- &#45;6383044973636083304 -->
+<g id="node24" class="node">
+<title>&#45;6383044973636083304</title>
+<g id="a_node24"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-macs2_signal_track/shard-0/execution/glob-7ab0340dfeb10ca109917cbdcc568548/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.pval.signal.bigwig" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;macs2_signal_track/shard&#45;0/execution/glob&#45;7ab0340dfeb10ca109917cbdcc568548/ENCC&#45;K27&#45;2_1.merged.nodup_x_ctl_for_rep1.pval.signal.bigwig" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M926.6667,-755.6518C926.6667,-755.6518 891.3333,-755.6518 891.3333,-755.6518 886.6667,-755.6518 882,-750.9852 882,-746.3185 882,-746.3185 882,-736.9852 882,-736.9852 882,-732.3185 886.6667,-727.6518 891.3333,-727.6518 891.3333,-727.6518 926.6667,-727.6518 926.6667,-727.6518 931.3333,-727.6518 936,-732.3185 936,-736.9852 936,-736.9852 936,-746.3185 936,-746.3185 936,-750.9852 931.3333,-755.6518 926.6667,-755.6518"/>
+<text text-anchor="middle" x="909" y="-744.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BW</text>
+<text text-anchor="middle" x="909" y="-734.4518" font-family="Times,serif" font-size="9.00" fill="#000000">p&#45;val</text>
+</a>
+</g>
+</g>
+<!-- 6968183376448782283&#45;&gt;&#45;6383044973636083304 -->
+<g id="edge111" class="edge">
+<title>6968183376448782283&#45;&gt;&#45;6383044973636083304</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M846.1313,-710.2594C850.8723,-711.5485 855.566,-713.0074 860,-714.6518 867.3992,-717.3961 875.0376,-721.1181 882.0179,-724.9209"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="881.5156,-726.6448 886.7342,-727.5554 883.2225,-723.5892 881.5156,-726.6448"/>
+</g>
+<!-- 6060065060919246341 -->
+<g id="node25" class="node">
+<title>6060065060919246341</title>
+<g id="a_node25"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-macs2_signal_track/shard-0/execution/glob-8876d8ced974dc46a0c7a4fac20a3a95/ENCC-K27-2_1.merged.nodup_x_ctl_for_rep1.fc.signal.bigwig" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;macs2_signal_track/shard&#45;0/execution/glob&#45;8876d8ced974dc46a0c7a4fac20a3a95/ENCC&#45;K27&#45;2_1.merged.nodup_x_ctl_for_rep1.fc.signal.bigwig" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M926.6667,-720.6518C926.6667,-720.6518 891.3333,-720.6518 891.3333,-720.6518 886.6667,-720.6518 882,-715.9852 882,-711.3185 882,-711.3185 882,-701.9852 882,-701.9852 882,-697.3185 886.6667,-692.6518 891.3333,-692.6518 891.3333,-692.6518 926.6667,-692.6518 926.6667,-692.6518 931.3333,-692.6518 936,-697.3185 936,-701.9852 936,-701.9852 936,-711.3185 936,-711.3185 936,-715.9852 931.3333,-720.6518 926.6667,-720.6518"/>
+<text text-anchor="middle" x="909" y="-709.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BW</text>
+<text text-anchor="middle" x="909" y="-699.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FC</text>
+</a>
+</g>
+</g>
+<!-- 6968183376448782283&#45;&gt;6060065060919246341 -->
+<g id="edge112" class="edge">
+<title>6968183376448782283&#45;&gt;6060065060919246341</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M846.0406,-703.8158C856.4224,-704.2835 867.1588,-704.7671 876.761,-705.1996"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="876.8957,-706.9574 881.9694,-705.4342 877.0533,-703.4609 876.8957,-706.9574"/>
+</g>
+<!-- 3864608036543613627 -->
+<g id="node26" class="node">
+<title>3864608036543613627</title>
+<g id="a_node26"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/fastq/ENCC-K27-2_1.fastq.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/fastq/ENCC&#45;K27&#45;2_1.fastq.gz" target="blank">
+<path fill="#ffc0cb" stroke="#000000" stroke-width=".5" d="M214.6667,-781.6518C214.6667,-781.6518 179.3333,-781.6518 179.3333,-781.6518 174.6667,-781.6518 170,-776.9852 170,-772.3185 170,-772.3185 170,-762.9852 170,-762.9852 170,-758.3185 174.6667,-753.6518 179.3333,-753.6518 179.3333,-753.6518 214.6667,-753.6518 214.6667,-753.6518 219.3333,-753.6518 224,-758.3185 224,-762.9852 224,-762.9852 224,-772.3185 224,-772.3185 224,-776.9852 219.3333,-781.6518 214.6667,-781.6518"/>
+<text text-anchor="middle" x="197" y="-770.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FASTQ</text>
+<text text-anchor="middle" x="197" y="-760.4518" font-family="Times,serif" font-size="9.00" fill="#000000">R1 (1)</text>
+</a>
+</g>
+</g>
+<!-- 3864608036543613627&#45;&gt;&#45;7985571792108496048 -->
+<g id="edge116" class="edge">
+<title>3864608036543613627&#45;&gt;&#45;7985571792108496048</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M224.1864,-755.569C232.0106,-752.0916 240.5106,-748.3138 248.2147,-744.8897"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="249.0373,-746.4393 252.8956,-742.8093 247.6158,-743.2409 249.0373,-746.4393"/>
+</g>
+<!-- 3864608036543613627&#45;&gt;&#45;8767117070251245675 -->
+<g id="edge117" class="edge">
+<title>3864608036543613627&#45;&gt;&#45;8767117070251245675</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M224.1864,-766.9411C229.7104,-766.7967 235.5711,-766.6434 241.2508,-766.495"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="241.4486,-768.2405 246.4011,-766.3603 241.357,-764.7417 241.4486,-768.2405"/>
+</g>
+<!-- &#45;4782029923617905614 -->
+<g id="node27" class="node">
+<title>&#45;4782029923617905614</title>
+<g id="a_node27"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/fastq/ENCC-K27-2_2.fastq.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/fastq/ENCC&#45;K27&#45;2_2.fastq.gz" target="blank">
+<path fill="#ffc0cb" stroke="#000000" stroke-width=".5" d="M214.6667,-746.6518C214.6667,-746.6518 179.3333,-746.6518 179.3333,-746.6518 174.6667,-746.6518 170,-741.9852 170,-737.3185 170,-737.3185 170,-727.9852 170,-727.9852 170,-723.3185 174.6667,-718.6518 179.3333,-718.6518 179.3333,-718.6518 214.6667,-718.6518 214.6667,-718.6518 219.3333,-718.6518 224,-723.3185 224,-727.9852 224,-727.9852 224,-737.3185 224,-737.3185 224,-741.9852 219.3333,-746.6518 214.6667,-746.6518"/>
+<text text-anchor="middle" x="197" y="-735.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FASTQ</text>
+<text text-anchor="middle" x="197" y="-725.4518" font-family="Times,serif" font-size="9.00" fill="#000000">R2 (1)</text>
+</a>
+</g>
+</g>
+<!-- &#45;4782029923617905614&#45;&gt;&#45;7985571792108496048 -->
+<g id="edge118" class="edge">
+<title>&#45;4782029923617905614&#45;&gt;&#45;7985571792108496048</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M224.1864,-733.0072C229.7104,-733.0794 235.5711,-733.156 241.2508,-733.2303"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="241.3786,-734.982 246.4011,-733.2976 241.4244,-731.4823 241.3786,-734.982"/>
+</g>
+<!-- &#45;4782029923617905614&#45;&gt;&#45;8767117070251245675 -->
+<g id="edge119" class="edge">
+<title>&#45;4782029923617905614&#45;&gt;&#45;8767117070251245675</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M224.1864,-744.3793C231.8684,-747.6931 240.2017,-751.2879 247.7937,-754.5629"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="247.1283,-756.1816 252.4125,-756.5553 248.5147,-752.9679 247.1283,-756.1816"/>
+</g>
+<!-- 166933435298005034 -->
+<g id="node29" class="node">
+<title>166933435298005034</title>
+<g id="a_node29"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-call_peak/shard-1/execution/glob-2e6c87fc90e45fa5dbda88934d454cd3/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;call_peak/shard&#45;1/execution/glob&#45;2e6c87fc90e45fa5dbda88934d454cd3/ENCC&#45;K27&#45;1_1.merged.nodup_x_ctl_for_rep2.pval0.01.500K.bfilt.narrowPeak.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M926.6667,-332.6518C926.6667,-332.6518 891.3333,-332.6518 891.3333,-332.6518 886.6667,-332.6518 882,-327.9852 882,-323.3185 882,-323.3185 882,-313.9852 882,-313.9852 882,-309.3185 886.6667,-304.6518 891.3333,-304.6518 891.3333,-304.6518 926.6667,-304.6518 926.6667,-304.6518 931.3333,-304.6518 936,-309.3185 936,-313.9852 936,-313.9852 936,-323.3185 936,-323.3185 936,-327.9852 931.3333,-332.6518 926.6667,-332.6518"/>
+<text text-anchor="middle" x="909" y="-321.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Peak</text>
+<text text-anchor="middle" x="909" y="-311.4518" font-family="Times,serif" font-size="9.00" fill="#000000">(bfilt)</text>
+</a>
+</g>
+</g>
+<!-- &#45;7345637386993682412&#45;&gt;166933435298005034 -->
+<g id="edge9" class="edge">
+<title>&#45;7345637386993682412&#45;&gt;166933435298005034</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M827.746,-336.2203C842.8622,-332.9519 861.2537,-328.9754 876.7136,-325.6327"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="877.318,-327.2925 881.8352,-324.5253 876.5783,-323.8716 877.318,-327.2925"/>
+</g>
+<!-- 8063325199455771866 -->
+<g id="node30" class="node">
+<title>8063325199455771866</title>
+<g id="a_node30"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-call_peak/shard-1/execution/glob-254907fcd430d7e6c9bf67ac4585adb4/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.pval0.01.500K.narrowPeak.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;call_peak/shard&#45;1/execution/glob&#45;254907fcd430d7e6c9bf67ac4585adb4/ENCC&#45;K27&#45;1_1.merged.nodup_x_ctl_for_rep2.pval0.01.500K.narrowPeak.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M930,-297.6518C930,-297.6518 888,-297.6518 888,-297.6518 885,-297.6518 882,-294.6518 882,-291.6518 882,-291.6518 882,-285.6518 882,-285.6518 882,-282.6518 885,-279.6518 888,-279.6518 888,-279.6518 930,-279.6518 930,-279.6518 933,-279.6518 936,-282.6518 936,-285.6518 936,-285.6518 936,-291.6518 936,-291.6518 936,-294.6518 933,-297.6518 930,-297.6518"/>
+<text text-anchor="middle" x="909" y="-286.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Peak</text>
+</a>
+</g>
+</g>
+<!-- &#45;7345637386993682412&#45;&gt;8063325199455771866 -->
+<g id="edge10" class="edge">
+<title>&#45;7345637386993682412&#45;&gt;8063325199455771866</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M816.6692,-333.504C833.6825,-325.1761 859.5124,-312.5535 882,-301.6518 883.147,-301.0958 884.3217,-300.5271 885.5083,-299.9534"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="886.3695,-301.4809 890.111,-297.7307 884.8475,-298.3291 886.3695,-301.4809"/>
+</g>
+<!-- 8063325199455771866&#45;&gt;1298892941294475154 -->
+<g id="edge11" class="edge">
+<title>8063325199455771866&#45;&gt;1298892941294475154</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M928.1049,-279.4684C934.0806,-275.6848 940.1192,-270.7407 944,-264.6518 964.3424,-232.735 935.7775,-211.2893 958,-180.6518 959.6362,-178.396 961.6409,-176.3998 963.8528,-174.6381"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="964.9333,-176.0179 968.0233,-171.715 962.9244,-173.1518 964.9333,-176.0179"/>
+</g>
+<!-- 8063325199455771866&#45;&gt;4731151964785008152 -->
+<g id="edge12" class="edge">
+<title>8063325199455771866&#45;&gt;4731151964785008152</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M934.3645,-297.7032C937.6284,-298.9759 940.9082,-300.3094 944,-301.6518 1025.8078,-337.1732 1119.5834,-386.7968 1160.7498,-409.0507"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1160.0413,-410.6571 1165.2713,-411.4993 1161.708,-407.5794 1160.0413,-410.6571"/>
+</g>
+<!-- &#45;5159738934902820400 -->
+<g id="node31" class="node">
+<title>&#45;5159738934902820400</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="627.5,-335.6518 573.5,-335.6518 573.5,-317.6518 627.5,-317.6518 627.5,-335.6518"/>
+<text text-anchor="middle" x="600.5" y="-324.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.bam2ta</text>
+</g>
+<!-- &#45;1743128593930838316 -->
+<g id="node32" class="node">
+<title>&#45;1743128593930838316</title>
+<g id="a_node32"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-bam2ta/shard-1/execution/glob-199637d3015dccbe277f621a18be9eb4/ENCC-K27-1_1.merged.nodup.tagAlign.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;bam2ta/shard&#45;1/execution/glob&#45;199637d3015dccbe277f621a18be9eb4/ENCC&#45;K27&#45;1_1.merged.nodup.tagAlign.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M708,-335.6518C708,-335.6518 661,-335.6518 661,-335.6518 658,-335.6518 655,-332.6518 655,-329.6518 655,-329.6518 655,-323.6518 655,-323.6518 655,-320.6518 658,-317.6518 661,-317.6518 661,-317.6518 708,-317.6518 708,-317.6518 711,-317.6518 714,-320.6518 714,-323.6518 714,-323.6518 714,-329.6518 714,-329.6518 714,-332.6518 711,-335.6518 708,-335.6518"/>
+<text text-anchor="middle" x="684.5" y="-324.4518" font-family="Times,serif" font-size="9.00" fill="#000000">TAG&#45;ALIGN</text>
+</a>
+</g>
+</g>
+<!-- &#45;5159738934902820400&#45;&gt;&#45;1743128593930838316 -->
+<g id="edge26" class="edge">
+<title>&#45;5159738934902820400&#45;&gt;&#45;1743128593930838316</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M627.5405,-326.6518C634.6327,-326.6518 642.3795,-326.6518 649.8112,-326.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="649.894,-328.4019 654.894,-326.6518 649.8939,-324.9019 649.894,-328.4019"/>
+</g>
+<!-- &#45;1743128593930838316&#45;&gt;1353927870727597322 -->
+<g id="edge28" class="edge">
+<title>&#45;1743128593930838316&#45;&gt;1353927870727597322</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M676.7668,-317.6298C661.8421,-300.2176 629.0149,-261.9192 611.6994,-241.7178"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="612.8346,-240.3532 608.252,-237.6958 610.1772,-242.631 612.8346,-240.3532"/>
+</g>
+<!-- &#45;1743128593930838316&#45;&gt;&#45;383122411646046888 -->
+<g id="edge29" class="edge">
+<title>&#45;1743128593930838316&#45;&gt;&#45;383122411646046888</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M686.9168,-335.7837C693.6973,-361.8003 712.9904,-438.6235 722,-503.6518 725.2093,-526.8157 720.6623,-695.9991 736,-713.6518 742.8188,-721.4998 753.0558,-725.3245 763.2567,-727.0271"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="763.0572,-728.7659 768.2464,-727.7007 763.5255,-725.2974 763.0572,-728.7659"/>
+</g>
+<!-- &#45;1743128593930838316&#45;&gt;6968183376448782283 -->
+<g id="edge30" class="edge">
+<title>&#45;1743128593930838316&#45;&gt;6968183376448782283</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M687.3056,-335.9216C702.5154,-386.1741 775.0805,-625.9265 793.6592,-687.3101"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="792.0674,-688.0918 795.1908,-692.3705 795.4173,-687.0779 792.0674,-688.0918"/>
+</g>
+<!-- &#45;1743128593930838316&#45;&gt;&#45;7345637386993682412 -->
+<g id="edge31" class="edge">
+<title>&#45;1743128593930838316&#45;&gt;&#45;7345637386993682412</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M714.0245,-330.8139C729.0135,-332.9269 747.3233,-335.508 763.0161,-337.7202"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="763.0337,-339.4899 768.229,-338.4551 763.5223,-336.0242 763.0337,-339.4899"/>
+</g>
+<!-- &#45;1743128593930838316&#45;&gt;&#45;2752761699690020845 -->
+<g id="edge32" class="edge">
+<title>&#45;1743128593930838316&#45;&gt;&#45;2752761699690020845</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M700.7618,-335.8215C720.9053,-347.1799 755.2496,-366.5459 777.2668,-378.9609"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="776.5535,-380.5677 781.7684,-381.4992 778.2726,-377.5189 776.5535,-380.5677"/>
+</g>
+<!-- &#45;1743128593930838316&#45;&gt;&#45;2789792544986436734 -->
+<g id="edge33" class="edge">
+<title>&#45;1743128593930838316&#45;&gt;&#45;2789792544986436734</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M691.7917,-317.6495C700.6606,-306.1363 715.2781,-285.2181 722,-264.6518 733.0194,-230.9369 709.8421,-129.6078 736,-105.6518 770.0873,-74.4341 909.1237,-75.3181 944,-105.6518 977.862,-135.1034 935.5873,-166.7713 958,-205.6518 961.3901,-211.5328 966.6097,-216.5949 971.9711,-220.6943"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="970.9888,-222.1434 976.0707,-223.6391 973.0307,-219.3007 970.9888,-222.1434"/>
+</g>
+<!-- &#45;1743128593930838316&#45;&gt;4731151964785008152 -->
+<g id="edge27" class="edge">
+<title>&#45;1743128593930838316&#45;&gt;4731151964785008152</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M692.1577,-317.2616C701.1074,-305.6847 715.5169,-285.0308 722,-264.6518 735.1035,-223.4627 708.0777,-103.6457 736,-70.6518 787.1132,-10.2549 829.8777,-28.6518 909,-28.6518 909,-28.6518 909,-28.6518 992.5,-28.6518 1064.9475,-28.6518 1070.007,-82.7778 1106,-145.6518 1157.8126,-236.1603 1175.8068,-363.8077 1180.5633,-406.2823"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1178.8476,-406.6947 1181.1258,-411.4772 1182.3273,-406.3179 1178.8476,-406.6947"/>
+</g>
+<!-- &#45;1743128593930838316&#45;&gt;&#45;6293012349078827657 -->
+<g id="edge34" class="edge">
+<title>&#45;1743128593930838316&#45;&gt;&#45;6293012349078827657</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M692.1429,-317.2569C701.0779,-305.6752 715.4729,-285.0168 722,-264.6518 728.2241,-245.2321 721.0403,-95.5108 736,-81.6518 752.9556,-65.9438 926.7291,-69.2912 944,-84.6518 974.5766,-111.8464 933.7993,-142.6549 958,-175.6518 959.2884,-177.4085 960.8087,-178.9935 962.4809,-180.4221"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="961.5588,-181.9166 966.6207,-183.4787 963.6378,-179.1009 961.5588,-181.9166"/>
+</g>
+<!-- &#45;2766500287173889968 -->
+<g id="node33" class="node">
+<title>&#45;2766500287173889968</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="458,-356.6518 404,-356.6518 404,-338.6518 458,-338.6518 458,-356.6518"/>
+<text text-anchor="middle" x="431" y="-345.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.filter</text>
+</g>
+<!-- &#45;4095384587706241526 -->
+<g id="node34" class="node">
+<title>&#45;4095384587706241526</title>
+<g id="a_node34"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter/shard-1/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/ENCC-K27-1_1.merged.nodup.samstats.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter/shard&#45;1/execution/glob&#45;7b38d9959cf6f3deb83ac2bd156d8317/ENCC&#45;K27&#45;1_1.merged.nodup.samstats.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="514.5" cy="-384.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="514.5" y="-386.8518" font-family="Times,serif" font-size="6.00" fill="#000000">SAMstats</text>
+<text text-anchor="middle" x="514.5" y="-379.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- &#45;2766500287173889968&#45;&gt;&#45;4095384587706241526 -->
+<g id="edge68" class="edge">
+<title>&#45;2766500287173889968&#45;&gt;&#45;4095384587706241526</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M451.6405,-356.7979C464.0046,-362.2766 479.7206,-369.2406 492.3451,-374.8347"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="491.9137,-376.5576 497.194,-376.9833 493.3317,-373.3577 491.9137,-376.5576"/>
+</g>
+<!-- &#45;3017291639820660436 -->
+<g id="node35" class="node">
+<title>&#45;3017291639820660436</title>
+<g id="a_node35"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter/shard-1/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/ENCC-K27-1_1.merged.nodup.bam" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter/shard&#45;1/execution/glob&#45;3bcbe4e7489c90f75e0523ac6f3a9385/ENCC&#45;K27&#45;1_1.merged.nodup.bam" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M532.1667,-340.6518C532.1667,-340.6518 496.8333,-340.6518 496.8333,-340.6518 492.1667,-340.6518 487.5,-335.9852 487.5,-331.3185 487.5,-331.3185 487.5,-321.9852 487.5,-321.9852 487.5,-317.3185 492.1667,-312.6518 496.8333,-312.6518 496.8333,-312.6518 532.1667,-312.6518 532.1667,-312.6518 536.8333,-312.6518 541.5,-317.3185 541.5,-321.9852 541.5,-321.9852 541.5,-331.3185 541.5,-331.3185 541.5,-335.9852 536.8333,-340.6518 532.1667,-340.6518"/>
+<text text-anchor="middle" x="514.5" y="-329.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Filt/deduped</text>
+<text text-anchor="middle" x="514.5" y="-319.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BAM</text>
+</a>
+</g>
+</g>
+<!-- &#45;2766500287173889968&#45;&gt;&#45;3017291639820660436 -->
+<g id="edge69" class="edge">
+<title>&#45;2766500287173889968&#45;&gt;&#45;3017291639820660436</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M458.341,-340.7757C466.0611,-338.8341 474.5303,-336.7041 482.4978,-334.7003"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="482.9606,-336.3885 487.3827,-333.4717 482.1069,-332.9942 482.9606,-336.3885"/>
+</g>
+<!-- &#45;568749593737157076 -->
+<g id="node36" class="node">
+<title>&#45;568749593737157076</title>
+<g id="a_node36"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter/shard-1/execution/glob-57d0acc485690c2359d57a5a21e0aedb/ENCC-K27-1_1.merged.dupmark.lib_complexity.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter/shard&#45;1/execution/glob&#45;57d0acc485690c2359d57a5a21e0aedb/ENCC&#45;K27&#45;1_1.merged.dupmark.lib_complexity.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="514.5" cy="-357.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="514.5" y="-359.8518" font-family="Times,serif" font-size="6.00" fill="#000000">LibCmplx</text>
+<text text-anchor="middle" x="514.5" y="-352.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- &#45;2766500287173889968&#45;&gt;&#45;568749593737157076 -->
+<g id="edge70" class="edge">
+<title>&#45;2766500287173889968&#45;&gt;&#45;568749593737157076</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M458.341,-350.9262C466.4549,-351.8979 475.3964,-352.9688 483.7133,-353.9648"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="483.6253,-355.7167 488.798,-354.5737 484.0416,-352.2415 483.6253,-355.7167"/>
+</g>
+<!-- &#45;3017291639820660436&#45;&gt;&#45;5159738934902820400 -->
+<g id="edge72" class="edge">
+<title>&#45;3017291639820660436&#45;&gt;&#45;5159738934902820400</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M541.7109,-326.6518C550.1058,-326.6518 559.433,-326.6518 568.1393,-326.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="568.4661,-328.4019 573.4661,-326.6518 568.466,-324.9019 568.4661,-328.4019"/>
+</g>
+<!-- &#45;3017291639820660436&#45;&gt;&#45;6746542681116105075 -->
+<g id="edge71" class="edge">
+<title>&#45;3017291639820660436&#45;&gt;&#45;6746542681116105075</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M541.8738,-335.3107C545.8635,-337.7236 549.4715,-340.783 552,-344.6518 566.1109,-366.2427 554.2051,-551.5181 560,-576.6518 566.6763,-605.6084 582.6386,-636.6942 592.4119,-654.0029"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="590.9877,-655.0375 594.9915,-658.5063 594.0247,-653.2979 590.9877,-655.0375"/>
+</g>
+<!-- &#45;3463874350757558986 -->
+<g id="node37" class="node">
+<title>&#45;3463874350757558986</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="300.5,-367.6518 246.5,-367.6518 246.5,-349.6518 300.5,-349.6518 300.5,-367.6518"/>
+<text text-anchor="middle" x="273.5" y="-356.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.align</text>
+</g>
+<!-- &#45;319087422129663828 -->
+<g id="node38" class="node">
+<title>&#45;319087422129663828</title>
+<g id="a_node38"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-align/shard-1/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/ENCC-K27-1_1.merged.bam" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;align/shard&#45;1/execution/glob&#45;3bcbe4e7489c90f75e0523ac6f3a9385/ENCC&#45;K27&#45;1_1.merged.bam" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M371,-346.6518C371,-346.6518 329,-346.6518 329,-346.6518 326,-346.6518 323,-343.6518 323,-340.6518 323,-340.6518 323,-334.6518 323,-334.6518 323,-331.6518 326,-328.6518 329,-328.6518 329,-328.6518 371,-328.6518 371,-328.6518 374,-328.6518 377,-331.6518 377,-334.6518 377,-334.6518 377,-340.6518 377,-340.6518 377,-343.6518 374,-346.6518 371,-346.6518"/>
+<text text-anchor="middle" x="350" y="-335.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BAM</text>
+</a>
+</g>
+</g>
+<!-- &#45;3463874350757558986&#45;&gt;&#45;319087422129663828 -->
+<g id="edge91" class="edge">
+<title>&#45;3463874350757558986&#45;&gt;&#45;319087422129663828</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M300.6864,-351.1889C306.2104,-349.6725 312.0711,-348.0637 317.7508,-346.5046"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="318.5428,-348.102 322.9011,-345.0907 317.6162,-344.7268 318.5428,-348.102"/>
+</g>
+<!-- &#45;5068564739861883459 -->
+<g id="node39" class="node">
+<title>&#45;5068564739861883459</title>
+<g id="a_node39"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-align/shard-1/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/ENCC-K27-1_1.merged.samstats.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;align/shard&#45;1/execution/glob&#45;7b38d9959cf6f3deb83ac2bd156d8317/ENCC&#45;K27&#45;1_1.merged.samstats.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="350" cy="-363.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="350" y="-365.8518" font-family="Times,serif" font-size="6.00" fill="#000000">SAMstats</text>
+<text text-anchor="middle" x="350" y="-358.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- &#45;3463874350757558986&#45;&gt;&#45;5068564739861883459 -->
+<g id="edge90" class="edge">
+<title>&#45;3463874350757558986&#45;&gt;&#45;5068564739861883459</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M300.6864,-360.4287C306.3419,-360.7984 312.3504,-361.1911 318.1562,-361.5705"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="318.3116,-363.3343 323.4151,-361.9143 318.5399,-359.8418 318.3116,-363.3343"/>
+</g>
+<!-- &#45;319087422129663828&#45;&gt;&#45;2766500287173889968 -->
+<g id="edge92" class="edge">
+<title>&#45;319087422129663828&#45;&gt;&#45;2766500287173889968</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M377.4229,-341.0374C384.2255,-341.8772 391.5796,-342.7851 398.5957,-343.6513"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="398.7036,-345.4278 403.8803,-344.3037 399.1325,-341.9542 398.7036,-345.4278"/>
+</g>
+<!-- &#45;1415183195551796514 -->
+<g id="node40" class="node">
+<title>&#45;1415183195551796514</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="300.5,-397.6518 246.5,-397.6518 246.5,-379.6518 300.5,-379.6518 300.5,-397.6518"/>
+<text text-anchor="middle" x="273.5" y="-386.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.xcor</text>
+</g>
+<!-- &#45;2605690708906208422 -->
+<g id="node41" class="node">
+<title>&#45;2605690708906208422</title>
+<g id="a_node41"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-xcor/shard-1/execution/glob-c0eba07eee633b4055d7d9d85813fdf5/ENCC-K27-1_1.merged.trim_50bp.filt.no_chrM.15M.cc.plot.png" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;xcor/shard&#45;1/execution/glob&#45;c0eba07eee633b4055d7d9d85813fdf5/ENCC&#45;K27&#45;1_1.merged.trim_50bp.filt.no_chrM.15M.cc.plot.png" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="350" cy="-390.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="350" y="-392.8518" font-family="Times,serif" font-size="6.00" fill="#000000">XCOR</text>
+<text text-anchor="middle" x="350" y="-385.8518" font-family="Times,serif" font-size="6.00" fill="#000000">Plot</text>
+</a>
+</g>
+</g>
+<!-- &#45;1415183195551796514&#45;&gt;&#45;2605690708906208422 -->
+<g id="edge110" class="edge">
+<title>&#45;1415183195551796514&#45;&gt;&#45;2605690708906208422</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M300.6864,-389.3626C306.2104,-389.507 312.0711,-389.6602 317.7508,-389.8087"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="317.857,-391.562 322.9011,-389.9434 317.9486,-388.0632 317.857,-391.562"/>
+</g>
+<!-- &#45;7010923791045528859 -->
+<g id="node43" class="node">
+<title>&#45;7010923791045528859</title>
+<g id="a_node43"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-macs2_signal_track/shard-1/execution/glob-8876d8ced974dc46a0c7a4fac20a3a95/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.fc.signal.bigwig" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;macs2_signal_track/shard&#45;1/execution/glob&#45;8876d8ced974dc46a0c7a4fac20a3a95/ENCC&#45;K27&#45;1_1.merged.nodup_x_ctl_for_rep2.fc.signal.bigwig" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M926.6667,-402.6518C926.6667,-402.6518 891.3333,-402.6518 891.3333,-402.6518 886.6667,-402.6518 882,-397.9852 882,-393.3185 882,-393.3185 882,-383.9852 882,-383.9852 882,-379.3185 886.6667,-374.6518 891.3333,-374.6518 891.3333,-374.6518 926.6667,-374.6518 926.6667,-374.6518 931.3333,-374.6518 936,-379.3185 936,-383.9852 936,-383.9852 936,-393.3185 936,-393.3185 936,-397.9852 931.3333,-402.6518 926.6667,-402.6518"/>
+<text text-anchor="middle" x="909" y="-391.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BW</text>
+<text text-anchor="middle" x="909" y="-381.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FC</text>
+</a>
+</g>
+</g>
+<!-- &#45;2752761699690020845&#45;&gt;&#45;7010923791045528859 -->
+<g id="edge113" class="edge">
+<title>&#45;2752761699690020845&#45;&gt;&#45;7010923791045528859</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M846.0406,-389.7862C856.4224,-389.5992 867.1588,-389.4057 876.761,-389.2327"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="877.0018,-390.9788 881.9694,-389.1389 876.9387,-387.4793 877.0018,-390.9788"/>
+</g>
+<!-- 2016383593875104924 -->
+<g id="node44" class="node">
+<title>2016383593875104924</title>
+<g id="a_node44"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-macs2_signal_track/shard-1/execution/glob-7ab0340dfeb10ca109917cbdcc568548/ENCC-K27-1_1.merged.nodup_x_ctl_for_rep2.pval.signal.bigwig" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;macs2_signal_track/shard&#45;1/execution/glob&#45;7ab0340dfeb10ca109917cbdcc568548/ENCC&#45;K27&#45;1_1.merged.nodup_x_ctl_for_rep2.pval.signal.bigwig" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M926.6667,-367.6518C926.6667,-367.6518 891.3333,-367.6518 891.3333,-367.6518 886.6667,-367.6518 882,-362.9852 882,-358.3185 882,-358.3185 882,-348.9852 882,-348.9852 882,-344.3185 886.6667,-339.6518 891.3333,-339.6518 891.3333,-339.6518 926.6667,-339.6518 926.6667,-339.6518 931.3333,-339.6518 936,-344.3185 936,-348.9852 936,-348.9852 936,-358.3185 936,-358.3185 936,-362.9852 931.3333,-367.6518 926.6667,-367.6518"/>
+<text text-anchor="middle" x="909" y="-356.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BW</text>
+<text text-anchor="middle" x="909" y="-346.4518" font-family="Times,serif" font-size="9.00" fill="#000000">p&#45;val</text>
+</a>
+</g>
+</g>
+<!-- &#45;2752761699690020845&#45;&gt;2016383593875104924 -->
+<g id="edge114" class="edge">
+<title>&#45;2752761699690020845&#45;&gt;2016383593875104924</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M825.1537,-381.6006C840.742,-376.4045 860.4085,-369.849 876.7763,-364.3931"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="877.552,-365.9793 881.742,-362.7378 876.4451,-362.6589 877.552,-365.9793"/>
+</g>
+<!-- 2532352960081199396 -->
+<g id="node45" class="node">
+<title>2532352960081199396</title>
+<g id="a_node45"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/fastq/ENCC-K27-1_1.fastq.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/fastq/ENCC&#45;K27&#45;1_1.fastq.gz" target="blank">
+<path fill="#ffc0cb" stroke="#000000" stroke-width=".5" d="M214.6667,-402.6518C214.6667,-402.6518 179.3333,-402.6518 179.3333,-402.6518 174.6667,-402.6518 170,-397.9852 170,-393.3185 170,-393.3185 170,-383.9852 170,-383.9852 170,-379.3185 174.6667,-374.6518 179.3333,-374.6518 179.3333,-374.6518 214.6667,-374.6518 214.6667,-374.6518 219.3333,-374.6518 224,-379.3185 224,-383.9852 224,-383.9852 224,-393.3185 224,-393.3185 224,-397.9852 219.3333,-402.6518 214.6667,-402.6518"/>
+<text text-anchor="middle" x="197" y="-391.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FASTQ</text>
+<text text-anchor="middle" x="197" y="-381.4518" font-family="Times,serif" font-size="9.00" fill="#000000">R1 (1)</text>
+</a>
+</g>
+</g>
+<!-- 2532352960081199396&#45;&gt;&#45;3463874350757558986 -->
+<g id="edge121" class="edge">
+<title>2532352960081199396&#45;&gt;&#45;3463874350757558986</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M224.1864,-377.9905C231.1651,-375.2537 238.6815,-372.3062 245.6911,-369.5573"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="246.4343,-371.1457 250.4502,-367.691 245.1564,-367.8873 246.4343,-371.1457"/>
+</g>
+<!-- 2532352960081199396&#45;&gt;&#45;1415183195551796514 -->
+<g id="edge120" class="edge">
+<title>2532352960081199396&#45;&gt;&#45;1415183195551796514</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M224.1864,-388.6518C229.7104,-388.6518 235.5711,-388.6518 241.2508,-388.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="241.4011,-390.4019 246.4011,-388.6518 241.4011,-386.9019 241.4011,-390.4019"/>
+</g>
+<!-- &#45;813193881291211849 -->
+<g id="node46" class="node">
+<title>&#45;813193881291211849</title>
+<g id="a_node46"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/fastq/ENCC-K27-1_2.fastq.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/fastq/ENCC&#45;K27&#45;1_2.fastq.gz" target="blank">
+<path fill="#ffc0cb" stroke="#000000" stroke-width=".5" d="M214.6667,-367.6518C214.6667,-367.6518 179.3333,-367.6518 179.3333,-367.6518 174.6667,-367.6518 170,-362.9852 170,-358.3185 170,-358.3185 170,-348.9852 170,-348.9852 170,-344.3185 174.6667,-339.6518 179.3333,-339.6518 179.3333,-339.6518 214.6667,-339.6518 214.6667,-339.6518 219.3333,-339.6518 224,-344.3185 224,-348.9852 224,-348.9852 224,-358.3185 224,-358.3185 224,-362.9852 219.3333,-367.6518 214.6667,-367.6518"/>
+<text text-anchor="middle" x="197" y="-356.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FASTQ</text>
+<text text-anchor="middle" x="197" y="-346.4518" font-family="Times,serif" font-size="9.00" fill="#000000">R2 (1)</text>
+</a>
+</g>
+</g>
+<!-- &#45;813193881291211849&#45;&gt;&#45;3463874350757558986 -->
+<g id="edge123" class="edge">
+<title>&#45;813193881291211849&#45;&gt;&#45;3463874350757558986</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M224.1864,-355.4287C229.7104,-355.7898 235.5711,-356.1728 241.2508,-356.544"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="241.2976,-358.3008 246.4011,-356.8807 241.5259,-354.8082 241.2976,-358.3008"/>
+</g>
+<!-- &#45;813193881291211849&#45;&gt;&#45;1415183195551796514 -->
+<g id="edge122" class="edge">
+<title>&#45;813193881291211849&#45;&gt;&#45;1415183195551796514</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M224.1864,-366.0901C232.1529,-369.7349 240.8199,-373.7002 248.6341,-377.2753"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="248.1007,-378.9557 253.3755,-379.4446 249.5569,-375.7729 248.1007,-378.9557"/>
+</g>
+<!-- 7778259199387142521 -->
+<g id="node47" class="node">
+<title>7778259199387142521</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="633,-549.6518 568,-549.6518 568,-531.6518 633,-531.6518 633,-549.6518"/>
+<text text-anchor="middle" x="600.5" y="-538.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.pool_ta_ctl</text>
+</g>
+<!-- &#45;3279998531972680474 -->
+<g id="node48" class="node">
+<title>&#45;3279998531972680474</title>
+<g id="a_node48"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-pool_ta_ctl/execution/glob-199637d3015dccbe277f621a18be9eb4/ENCC-I1_1.merged.nodup.pooled.tagAlign.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;pool_ta_ctl/execution/glob&#45;199637d3015dccbe277f621a18be9eb4/ENCC&#45;I1_1.merged.nodup.pooled.tagAlign.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M708,-549.6518C708,-549.6518 661,-549.6518 661,-549.6518 658,-549.6518 655,-546.6518 655,-543.6518 655,-543.6518 655,-537.6518 655,-537.6518 655,-534.6518 658,-531.6518 661,-531.6518 661,-531.6518 708,-531.6518 708,-531.6518 711,-531.6518 714,-534.6518 714,-537.6518 714,-537.6518 714,-543.6518 714,-543.6518 714,-546.6518 711,-549.6518 708,-549.6518"/>
+<text text-anchor="middle" x="684.5" y="-538.4518" font-family="Times,serif" font-size="9.00" fill="#000000">TAG&#45;ALIGN</text>
+</a>
+</g>
+</g>
+<!-- 7778259199387142521&#45;&gt;&#45;3279998531972680474 -->
+<g id="edge42" class="edge">
+<title>7778259199387142521&#45;&gt;&#45;3279998531972680474</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M633.2171,-540.6518C638.5377,-540.6518 644.0676,-540.6518 649.4415,-540.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="649.7499,-542.4019 654.7499,-540.6518 649.7499,-538.9019 649.7499,-542.4019"/>
+</g>
+<!-- &#45;3279998531972680474&#45;&gt;&#45;1034571902032946660 -->
+<g id="edge51" class="edge">
+<title>&#45;3279998531972680474&#45;&gt;&#45;1034571902032946660</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M688.3651,-531.6478C696.1808,-513.0079 713.8135,-468.6704 722,-429.6518 729.2834,-394.9376 718.8397,-301.6945 736,-270.6518 744.5717,-255.1458 760.637,-243.1905 774.2662,-235.2182"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="775.2879,-236.651 778.7805,-232.6679 773.5663,-233.6036 775.2879,-236.651"/>
+</g>
+<!-- &#45;3279998531972680474&#45;&gt;1861490231213734968 -->
+<g id="edge50" class="edge">
+<title>&#45;3279998531972680474&#45;&gt;1861490231213734968</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M688.5639,-531.3765C696.5798,-512.6003 714.3157,-468.565 722,-429.6518 731.4046,-382.0273 710.1932,-252.7682 736,-211.6518 742.6696,-201.0256 753.7968,-193.3236 764.7984,-187.8975"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="765.6999,-189.4081 769.4924,-185.7095 764.2211,-186.2358 765.6999,-189.4081"/>
+</g>
+<!-- &#45;3279998531972680474&#45;&gt;&#45;383122411646046888 -->
+<g id="edge45" class="edge">
+<title>&#45;3279998531972680474&#45;&gt;&#45;383122411646046888</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M689.4542,-550.0222C697.5135,-565.6659 713.423,-598.2864 722,-627.6518 732.8572,-664.8241 709.2443,-685.6556 736,-713.6518 743.053,-721.0319 753.1422,-724.7693 763.1387,-726.5353"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="763.1421,-728.3039 768.3412,-727.2879 763.6433,-724.84 763.1421,-728.3039"/>
+</g>
+<!-- &#45;3279998531972680474&#45;&gt;6968183376448782283 -->
+<g id="edge47" class="edge">
+<title>&#45;3279998531972680474&#45;&gt;6968183376448782283</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M690.9275,-549.7692C709.9683,-576.7786 766.1467,-656.4679 788.5856,-688.2975"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="787.3318,-689.5562 791.643,-692.6345 790.1924,-687.5395 787.3318,-689.5562"/>
+</g>
+<!-- &#45;3279998531972680474&#45;&gt;&#45;7345637386993682412 -->
+<g id="edge48" class="edge">
+<title>&#45;3279998531972680474&#45;&gt;&#45;7345637386993682412</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M687.7924,-531.5005C694.5516,-512.5888 710.338,-467.7761 722,-429.6518 728.8756,-407.1747 721.657,-397.2737 736,-378.6518 744.3143,-367.8572 756.8548,-359.7117 768.487,-353.9236"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="769.2998,-355.4748 773.0592,-351.7425 767.7929,-352.3158 769.2998,-355.4748"/>
+</g>
+<!-- &#45;3279998531972680474&#45;&gt;&#45;2752761699690020845 -->
+<g id="edge49" class="edge">
+<title>&#45;3279998531972680474&#45;&gt;&#45;2752761699690020845</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M691.5999,-531.2687C711.0275,-505.5934 765.1188,-434.1072 787.7932,-404.141"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="789.2813,-405.0746 790.9028,-400.0315 786.4902,-402.9627 789.2813,-405.0746"/>
+</g>
+<!-- &#45;3279998531972680474&#45;&gt;&#45;2789792544986436734 -->
+<g id="edge43" class="edge">
+<title>&#45;3279998531972680474&#45;&gt;&#45;2789792544986436734</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M687.5352,-549.8967C694.8096,-572.4644 713.2805,-632.285 722,-683.6518 725.2645,-702.8833 721.6673,-845.42 736,-858.6518 752.9811,-874.3287 927.0385,-874.35 944,-858.6518 967.2142,-837.1667 988.2078,-339.9007 991.9196,-247.3925"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="993.679,-247.1881 992.1298,-242.1223 990.1818,-247.0485 993.679,-247.1881"/>
+</g>
+<!-- &#45;3279998531972680474&#45;&gt;4731151964785008152 -->
+<g id="edge46" class="edge">
+<title>&#45;3279998531972680474&#45;&gt;4731151964785008152</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M687.5494,-549.8943C694.8553,-572.4567 713.3909,-632.2664 722,-683.6518 725.4062,-703.9828 721.5035,-853.9957 736,-868.6518 790.2728,-923.5226 831.8226,-883.6518 909,-883.6518 909,-883.6518 909,-883.6518 992.5,-883.6518 1091.9496,-883.6518 1165.1151,-513.153 1179.4402,-435.0122"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1181.1969,-435.1328 1180.3695,-429.9004 1177.7534,-434.5068 1181.1969,-435.1328"/>
+</g>
+<!-- &#45;3279998531972680474&#45;&gt;&#45;6293012349078827657 -->
+<g id="edge44" class="edge">
+<title>&#45;3279998531972680474&#45;&gt;&#45;6293012349078827657</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M687.5088,-549.9012C694.7246,-572.479 713.0753,-632.3203 722,-683.6518 725.0379,-701.1247 722.921,-830.6739 736,-842.6518 753.0436,-858.2607 927.4751,-858.8089 944,-842.6518 968.7141,-818.4877 942.7865,-251.688 958,-220.6518 961.0303,-214.4699 966.141,-209.1951 971.5131,-204.9464"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="972.6581,-206.2764 975.6421,-201.8994 970.5798,-203.4602 972.6581,-206.2764"/>
+</g>
+<!-- &#45;2376002548920190260 -->
+<g id="node49" class="node">
+<title>&#45;2376002548920190260</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="463,-494.6518 399,-494.6518 399,-476.6518 463,-476.6518 463,-494.6518"/>
+<text text-anchor="middle" x="431" y="-483.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.bam2ta_ctl</text>
+</g>
+<!-- 172710033649195289 -->
+<g id="node50" class="node">
+<title>172710033649195289</title>
+<g id="a_node50"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-bam2ta_ctl/shard-0/execution/glob-199637d3015dccbe277f621a18be9eb4/ENCC-I1_1.merged.nodup.tagAlign.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;bam2ta_ctl/shard&#45;0/execution/glob&#45;199637d3015dccbe277f621a18be9eb4/ENCC&#45;I1_1.merged.nodup.tagAlign.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M538,-494.6518C538,-494.6518 491,-494.6518 491,-494.6518 488,-494.6518 485,-491.6518 485,-488.6518 485,-488.6518 485,-482.6518 485,-482.6518 485,-479.6518 488,-476.6518 491,-476.6518 491,-476.6518 538,-476.6518 538,-476.6518 541,-476.6518 544,-479.6518 544,-482.6518 544,-482.6518 544,-488.6518 544,-488.6518 544,-491.6518 541,-494.6518 538,-494.6518"/>
+<text text-anchor="middle" x="514.5" y="-483.4518" font-family="Times,serif" font-size="9.00" fill="#000000">TAG&#45;ALIGN</text>
+</a>
+</g>
+</g>
+<!-- &#45;2376002548920190260&#45;&gt;172710033649195289 -->
+<g id="edge73" class="edge">
+<title>&#45;2376002548920190260&#45;&gt;172710033649195289</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M463.0445,-485.6518C468.5375,-485.6518 474.2679,-485.6518 479.8259,-485.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="479.8701,-487.4019 484.87,-485.6518 479.87,-483.9019 479.8701,-487.4019"/>
+</g>
+<!-- 172710033649195289&#45;&gt;&#45;383122411646046888 -->
+<g id="edge74" class="edge">
+<title>172710033649195289&#45;&gt;&#45;383122411646046888</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M544.1225,-486.6136C595.6968,-488.9587 698.7206,-496.8346 722,-522.6518 750.4997,-554.2585 707.9812,-681.6181 736,-713.6518 742.8447,-721.4773 753.0884,-725.2961 763.2875,-727.0002"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="763.0862,-728.7388 768.2757,-727.6751 763.5556,-725.2704 763.0862,-728.7388"/>
+</g>
+<!-- 172710033649195289&#45;&gt;6968183376448782283 -->
+<g id="edge76" class="edge">
+<title>172710033649195289&#45;&gt;6968183376448782283</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M544.0315,-479.2441C587.6371,-471.5857 669.7162,-464.2824 722,-503.6518 782.8362,-549.4612 794.9787,-650.492 797.3988,-687.6134"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="795.6521,-687.7227 797.6899,-692.6124 799.1462,-687.5191 795.6521,-687.7227"/>
+</g>
+<!-- 172710033649195289&#45;&gt;&#45;7345637386993682412 -->
+<g id="edge77" class="edge">
+<title>172710033649195289&#45;&gt;&#45;7345637386993682412</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M519.0257,-476.2616C525.9996,-462.7434 540.6217,-437.8661 560,-423.6518 622.8199,-377.5723 713.743,-356.3719 763.039,-347.7586"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="763.6247,-349.434 768.2584,-346.8666 763.0351,-345.984 763.6247,-349.434"/>
+</g>
+<!-- 172710033649195289&#45;&gt;&#45;2752761699690020845 -->
+<g id="edge78" class="edge">
+<title>172710033649195289&#45;&gt;&#45;2752761699690020845</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M524.6348,-476.5785C533.4179,-469.1573 546.7642,-458.9019 560,-452.6518 620.0986,-424.2731 695.1015,-407.4833 744.6662,-398.6811"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="745.0584,-400.3892 749.6813,-397.8023 744.4542,-396.9417 745.0584,-400.3892"/>
+</g>
+<!-- 172710033649195289&#45;&gt;7778259199387142521 -->
+<g id="edge79" class="edge">
+<title>172710033649195289&#45;&gt;7778259199387142521</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M528.7012,-494.734C543.2662,-504.0488 565.9898,-518.5814 581.9637,-528.7972"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="581.1226,-530.3366 586.2778,-531.5562 583.0084,-527.388 581.1226,-530.3366"/>
+</g>
+<!-- 172710033649195289&#45;&gt;4731151964785008152 -->
+<g id="edge75" class="edge">
+<title>172710033649195289&#45;&gt;4731151964785008152</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M541.2301,-476.5195C547.3423,-474.6859 553.8506,-472.932 560,-471.6518 614.5134,-460.3038 628.8179,-457.6518 684.5,-457.6518 684.5,-457.6518 684.5,-457.6518 992.5,-457.6518 1048.1592,-457.6518 1111.3382,-442.086 1148.8665,-431.1467"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1149.4621,-432.7956 1153.7632,-429.7031 1148.4723,-429.4385 1149.4621,-432.7956"/>
+</g>
+<!-- &#45;3394253793242778724 -->
+<g id="node51" class="node">
+<title>&#45;3394253793242778724</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="301,-494.6518 246,-494.6518 246,-476.6518 301,-476.6518 301,-494.6518"/>
+<text text-anchor="middle" x="273.5" y="-483.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.filter_ctl</text>
+</g>
+<!-- 9045940910243393653 -->
+<g id="node52" class="node">
+<title>9045940910243393653</title>
+<g id="a_node52"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter_ctl/shard-0/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/ENCC-I1_1.merged.nodup.samstats.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter_ctl/shard&#45;0/execution/glob&#45;7b38d9959cf6f3deb83ac2bd156d8317/ENCC&#45;I1_1.merged.nodup.samstats.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="350" cy="-454.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="350" y="-456.8518" font-family="Times,serif" font-size="6.00" fill="#000000">SAMstats</text>
+<text text-anchor="middle" x="350" y="-449.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- &#45;3394253793242778724&#45;&gt;9045940910243393653 -->
+<g id="edge95" class="edge">
+<title>&#45;3394253793242778724&#45;&gt;9045940910243393653</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M296.0388,-476.5185C305.7349,-472.5893 317.0614,-467.9995 326.8269,-464.0423"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="327.5048,-465.6559 331.4815,-462.1561 326.1902,-462.4121 327.5048,-465.6559"/>
+</g>
+<!-- 593582438053864243 -->
+<g id="node53" class="node">
+<title>593582438053864243</title>
+<g id="a_node53"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter_ctl/shard-0/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/ENCC-I1_1.merged.nodup.bam" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter_ctl/shard&#45;0/execution/glob&#45;3bcbe4e7489c90f75e0523ac6f3a9385/ENCC&#45;I1_1.merged.nodup.bam" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M367.6667,-499.6518C367.6667,-499.6518 332.3333,-499.6518 332.3333,-499.6518 327.6667,-499.6518 323,-494.9852 323,-490.3185 323,-490.3185 323,-480.9852 323,-480.9852 323,-476.3185 327.6667,-471.6518 332.3333,-471.6518 332.3333,-471.6518 367.6667,-471.6518 367.6667,-471.6518 372.3333,-471.6518 377,-476.3185 377,-480.9852 377,-480.9852 377,-490.3185 377,-490.3185 377,-494.9852 372.3333,-499.6518 367.6667,-499.6518"/>
+<text text-anchor="middle" x="350" y="-488.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Filt/deduped</text>
+<text text-anchor="middle" x="350" y="-478.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BAM</text>
+</a>
+</g>
+</g>
+<!-- &#45;3394253793242778724&#45;&gt;593582438053864243 -->
+<g id="edge93" class="edge">
+<title>&#45;3394253793242778724&#45;&gt;593582438053864243</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M301.1183,-485.6518C306.5576,-485.6518 312.3085,-485.6518 317.8812,-485.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="317.9348,-487.4019 322.9348,-485.6518 317.9347,-483.9019 317.9348,-487.4019"/>
+</g>
+<!-- 1565119491328700244 -->
+<g id="node54" class="node">
+<title>1565119491328700244</title>
+<g id="a_node54"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter_ctl/shard-0/execution/glob-57d0acc485690c2359d57a5a21e0aedb/ENCC-I1_1.merged.dupmark.lib_complexity.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter_ctl/shard&#45;0/execution/glob&#45;57d0acc485690c2359d57a5a21e0aedb/ENCC&#45;I1_1.merged.dupmark.lib_complexity.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="350" cy="-516.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="350" y="-518.8518" font-family="Times,serif" font-size="6.00" fill="#000000">LibCmplx</text>
+<text text-anchor="middle" x="350" y="-511.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- &#45;3394253793242778724&#45;&gt;1565119491328700244 -->
+<g id="edge94" class="edge">
+<title>&#45;3394253793242778724&#45;&gt;1565119491328700244</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M296.0388,-494.7852C305.7349,-498.7144 317.0614,-503.3042 326.8269,-507.2614"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="326.1902,-508.8916 331.4815,-509.1476 327.5048,-505.6478 326.1902,-508.8916"/>
+</g>
+<!-- 593582438053864243&#45;&gt;&#45;2376002548920190260 -->
+<g id="edge96" class="edge">
+<title>593582438053864243&#45;&gt;&#45;2376002548920190260</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M377.4229,-485.6518C382.6938,-485.6518 388.2957,-485.6518 393.8149,-485.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="393.8485,-487.4019 398.8485,-485.6518 393.8485,-483.9019 393.8485,-487.4019"/>
+</g>
+<!-- 593582438053864243&#45;&gt;&#45;6746542681116105075 -->
+<g id="edge97" class="edge">
+<title>593582438053864243&#45;&gt;&#45;6746542681116105075</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M377.0241,-492.7354C425.7799,-505.9609 525.8322,-535.2773 552,-559.6518 552.933,-560.5209 581.5833,-624.9853 594.403,-653.8922"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="592.8341,-654.6713 596.4605,-658.5329 596.0337,-653.2527 592.8341,-654.6713"/>
+</g>
+<!-- &#45;9099886700049461354 -->
+<g id="node55" class="node">
+<title>&#45;9099886700049461354</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="148,-477.6518 92,-477.6518 92,-459.6518 148,-459.6518 148,-477.6518"/>
+<text text-anchor="middle" x="120" y="-466.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.align_ctl</text>
+</g>
+<!-- 5354276475821603382 -->
+<g id="node56" class="node">
+<title>5354276475821603382</title>
+<g id="a_node56"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-align_ctl/shard-0/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/ENCC-I1_1.merged.samstats.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;align_ctl/shard&#45;0/execution/glob&#45;7b38d9959cf6f3deb83ac2bd156d8317/ENCC&#45;I1_1.merged.samstats.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="197" cy="-459.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="197" y="-461.8518" font-family="Times,serif" font-size="6.00" fill="#000000">SAMstats</text>
+<text text-anchor="middle" x="197" y="-454.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- &#45;9099886700049461354&#45;&gt;5354276475821603382 -->
+<g id="edge103" class="edge">
+<title>&#45;9099886700049461354&#45;&gt;5354276475821603382</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M148.2347,-465.3517C153.9527,-464.6833 159.9965,-463.9769 165.8095,-463.2975"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="166.3042,-465.0017 171.0672,-462.6829 165.8978,-461.5253 166.3042,-465.0017"/>
+</g>
+<!-- 2331737451031972349 -->
+<g id="node57" class="node">
+<title>2331737451031972349</title>
+<g id="a_node57"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-align_ctl/shard-0/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/ENCC-I1_1.merged.bam" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;align_ctl/shard&#45;0/execution/glob&#45;3bcbe4e7489c90f75e0523ac6f3a9385/ENCC&#45;I1_1.merged.bam" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M218,-494.6518C218,-494.6518 176,-494.6518 176,-494.6518 173,-494.6518 170,-491.6518 170,-488.6518 170,-488.6518 170,-482.6518 170,-482.6518 170,-479.6518 173,-476.6518 176,-476.6518 176,-476.6518 218,-476.6518 218,-476.6518 221,-476.6518 224,-479.6518 224,-482.6518 224,-482.6518 224,-488.6518 224,-488.6518 224,-491.6518 221,-494.6518 218,-494.6518"/>
+<text text-anchor="middle" x="197" y="-483.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BAM</text>
+</a>
+</g>
+</g>
+<!-- &#45;9099886700049461354&#45;&gt;2331737451031972349 -->
+<g id="edge104" class="edge">
+<title>&#45;9099886700049461354&#45;&gt;2331737451031972349</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M148.2347,-474.8855C153.624,-476.0753 159.3029,-477.3291 164.8051,-478.5439"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="164.5354,-480.2764 169.7951,-479.6456 165.29,-476.8587 164.5354,-480.2764"/>
+</g>
+<!-- 2331737451031972349&#45;&gt;&#45;3394253793242778724 -->
+<g id="edge105" class="edge">
+<title>2331737451031972349&#45;&gt;&#45;3394253793242778724</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M224.1864,-485.6518C229.5788,-485.6518 235.2922,-485.6518 240.8448,-485.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="240.8852,-487.4019 245.8851,-485.6518 240.8851,-483.9019 240.8852,-487.4019"/>
+</g>
+<!-- &#45;3361267514647288383 -->
+<g id="node58" class="node">
+<title>&#45;3361267514647288383</title>
+<g id="a_node58"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/fastq/ENCC-I1_1.fastq.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/fastq/ENCC&#45;I1_1.fastq.gz" target="blank">
+<path fill="#ffc0cb" stroke="#000000" stroke-width=".5" d="M60.6667,-512.6518C60.6667,-512.6518 25.3333,-512.6518 25.3333,-512.6518 20.6667,-512.6518 16,-507.9852 16,-503.3185 16,-503.3185 16,-493.9852 16,-493.9852 16,-489.3185 20.6667,-484.6518 25.3333,-484.6518 25.3333,-484.6518 60.6667,-484.6518 60.6667,-484.6518 65.3333,-484.6518 70,-489.3185 70,-493.9852 70,-493.9852 70,-503.3185 70,-503.3185 70,-507.9852 65.3333,-512.6518 60.6667,-512.6518"/>
+<text text-anchor="middle" x="43" y="-501.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FASTQ</text>
+<text text-anchor="middle" x="43" y="-491.4518" font-family="Times,serif" font-size="9.00" fill="#000000">R1 (1)</text>
+</a>
+</g>
+</g>
+<!-- &#45;3361267514647288383&#45;&gt;&#45;9099886700049461354 -->
+<g id="edge124" class="edge">
+<title>&#45;3361267514647288383&#45;&gt;&#45;9099886700049461354</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M70.3641,-487.9905C77.3884,-485.2537 84.9539,-482.3062 92.0094,-479.5573"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="92.776,-481.1368 96.7996,-477.691 91.5054,-477.8756 92.776,-481.1368"/>
+</g>
+<!-- &#45;7575202673159704394 -->
+<g id="node59" class="node">
+<title>&#45;7575202673159704394</title>
+<g id="a_node59"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/fastq/ENCC-I1_2.fastq.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/fastq/ENCC&#45;I1_2.fastq.gz" target="blank">
+<path fill="#ffc0cb" stroke="#000000" stroke-width=".5" d="M60.6667,-477.6518C60.6667,-477.6518 25.3333,-477.6518 25.3333,-477.6518 20.6667,-477.6518 16,-472.9852 16,-468.3185 16,-468.3185 16,-458.9852 16,-458.9852 16,-454.3185 20.6667,-449.6518 25.3333,-449.6518 25.3333,-449.6518 60.6667,-449.6518 60.6667,-449.6518 65.3333,-449.6518 70,-454.3185 70,-458.9852 70,-458.9852 70,-468.3185 70,-468.3185 70,-472.9852 65.3333,-477.6518 60.6667,-477.6518"/>
+<text text-anchor="middle" x="43" y="-466.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FASTQ</text>
+<text text-anchor="middle" x="43" y="-456.4518" font-family="Times,serif" font-size="9.00" fill="#000000">R2 (1)</text>
+</a>
+</g>
+</g>
+<!-- &#45;7575202673159704394&#45;&gt;&#45;9099886700049461354 -->
+<g id="edge125" class="edge">
+<title>&#45;7575202673159704394&#45;&gt;&#45;9099886700049461354</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M70.3641,-465.4287C75.7256,-465.7769 81.4023,-466.1455 86.9268,-466.5042"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="86.8413,-468.2523 91.9442,-466.83 87.0682,-464.7596 86.8413,-468.2523"/>
+</g>
+<!-- &#45;2543885414120305503 -->
+<g id="node60" class="node">
+<title>&#45;2543885414120305503</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="463,-618.6518 399,-618.6518 399,-600.6518 463,-600.6518 463,-618.6518"/>
+<text text-anchor="middle" x="431" y="-607.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.bam2ta_ctl</text>
+</g>
+<!-- &#45;5737081854568688743 -->
+<g id="node61" class="node">
+<title>&#45;5737081854568688743</title>
+<g id="a_node61"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-bam2ta_ctl/shard-1/execution/glob-199637d3015dccbe277f621a18be9eb4/ENCC-I2_1.merged.nodup.tagAlign.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;bam2ta_ctl/shard&#45;1/execution/glob&#45;199637d3015dccbe277f621a18be9eb4/ENCC&#45;I2_1.merged.nodup.tagAlign.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M538,-618.6518C538,-618.6518 491,-618.6518 491,-618.6518 488,-618.6518 485,-615.6518 485,-612.6518 485,-612.6518 485,-606.6518 485,-606.6518 485,-603.6518 488,-600.6518 491,-600.6518 491,-600.6518 538,-600.6518 538,-600.6518 541,-600.6518 544,-603.6518 544,-606.6518 544,-606.6518 544,-612.6518 544,-612.6518 544,-615.6518 541,-618.6518 538,-618.6518"/>
+<text text-anchor="middle" x="514.5" y="-607.4518" font-family="Times,serif" font-size="9.00" fill="#000000">TAG&#45;ALIGN</text>
+</a>
+</g>
+</g>
+<!-- &#45;2543885414120305503&#45;&gt;&#45;5737081854568688743 -->
+<g id="edge80" class="edge">
+<title>&#45;2543885414120305503&#45;&gt;&#45;5737081854568688743</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M463.0445,-609.6518C468.5375,-609.6518 474.2679,-609.6518 479.8259,-609.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="479.8701,-611.4019 484.87,-609.6518 479.87,-607.9019 479.8701,-611.4019"/>
+</g>
+<!-- &#45;5737081854568688743&#45;&gt;&#45;383122411646046888 -->
+<g id="edge81" class="edge">
+<title>&#45;5737081854568688743&#45;&gt;&#45;383122411646046888</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M544.4338,-615.7415C568.833,-621.2327 603.8908,-630.3383 633,-642.6518 675.1926,-660.4998 687.9313,-664.0236 722,-694.6518 729.8004,-701.6645 727.176,-707.9807 736,-713.6518 744.0405,-718.8195 753.767,-721.9767 763.1083,-723.8929"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="763.0114,-725.6543 768.245,-724.8347 763.6426,-722.2117 763.0114,-725.6543"/>
+</g>
+<!-- &#45;5737081854568688743&#45;&gt;6968183376448782283 -->
+<g id="edge83" class="edge">
+<title>&#45;5737081854568688743&#45;&gt;6968183376448782283</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M544.1019,-609.7925C593.6752,-610.4283 691.0943,-613.5041 722,-627.6518 751.4839,-641.1487 776.3632,-671.0868 789.0239,-688.4643"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="787.6441,-689.5433 791.9749,-692.594 790.4918,-687.5084 787.6441,-689.5433"/>
+</g>
+<!-- &#45;5737081854568688743&#45;&gt;&#45;7345637386993682412 -->
+<g id="edge84" class="edge">
+<title>&#45;5737081854568688743&#45;&gt;&#45;7345637386993682412</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M544.1536,-605.4194C600.7824,-597.2716 719.004,-579.9209 722,-576.6518 751.8025,-544.1327 712.657,-416.0789 736,-378.6518 742.8586,-367.6551 754.3949,-359.6483 765.6691,-354.0183"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="766.6976,-355.4679 770.4704,-351.7493 765.2021,-352.3035 766.6976,-355.4679"/>
+</g>
+<!-- &#45;5737081854568688743&#45;&gt;&#45;2752761699690020845 -->
+<g id="edge85" class="edge">
+<title>&#45;5737081854568688743&#45;&gt;&#45;2752761699690020845</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M544.325,-608.9548C598.3562,-607.4389 708.15,-603.101 722,-592.6518 753.5532,-568.8465 784.7168,-447.0829 794.7025,-404.9894"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="796.4254,-405.3074 795.8659,-400.0396 793.0182,-404.5065 796.4254,-405.3074"/>
+</g>
+<!-- &#45;5737081854568688743&#45;&gt;7778259199387142521 -->
+<g id="edge86" class="edge">
+<title>&#45;5737081854568688743&#45;&gt;7778259199387142521</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M525.743,-600.6313C540.9372,-588.4406 568.0839,-566.6601 585.1469,-552.9701"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="586.4495,-554.1686 589.2542,-549.6746 584.2591,-551.4387 586.4495,-554.1686"/>
+</g>
+<!-- &#45;5737081854568688743&#45;&gt;4731151964785008152 -->
+<g id="edge82" class="edge">
+<title>&#45;5737081854568688743&#45;&gt;4731151964785008152</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M528.3763,-618.8033C537.157,-624.2808 548.9074,-631.0496 560,-635.6518 591.0719,-648.5433 611.066,-630.1459 633,-655.6518 687.5639,-719.1013 600.7195,-778.9597 655,-842.6518 675.0765,-866.2094 700.8272,-839.0745 722,-861.6518 742.2147,-883.2075 713.9456,-906.9823 736,-926.6518 793.659,-978.0758 831.7408,-943.6518 909,-943.6518 909,-943.6518 909,-943.6518 992.5,-943.6518 1060.6194,-943.6518 1076.8868,-902.2365 1106,-840.6518 1141.5068,-765.5426 1173.1205,-499.7808 1180.4198,-434.9795"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1182.1967,-434.8357 1181.0137,-429.6721 1178.7184,-434.4464 1182.1967,-434.8357"/>
+</g>
+<!-- &#45;4772678027180352939 -->
+<g id="node62" class="node">
+<title>&#45;4772678027180352939</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="301,-618.6518 246,-618.6518 246,-600.6518 301,-600.6518 301,-618.6518"/>
+<text text-anchor="middle" x="273.5" y="-607.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.filter_ctl</text>
+</g>
+<!-- &#45;5764854769985371794 -->
+<g id="node63" class="node">
+<title>&#45;5764854769985371794</title>
+<g id="a_node63"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter_ctl/shard-1/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/ENCC-I2_1.merged.nodup.samstats.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter_ctl/shard&#45;1/execution/glob&#45;7b38d9959cf6f3deb83ac2bd156d8317/ENCC&#45;I2_1.merged.nodup.samstats.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="350" cy="-578.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="350" y="-580.8518" font-family="Times,serif" font-size="6.00" fill="#000000">SAMstats</text>
+<text text-anchor="middle" x="350" y="-573.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- &#45;4772678027180352939&#45;&gt;&#45;5764854769985371794 -->
+<g id="edge98" class="edge">
+<title>&#45;4772678027180352939&#45;&gt;&#45;5764854769985371794</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M296.0388,-600.5185C305.7349,-596.5893 317.0614,-591.9995 326.8269,-588.0423"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="327.5048,-589.6559 331.4815,-586.1561 326.1902,-586.4121 327.5048,-589.6559"/>
+</g>
+<!-- 7000921807384290169 -->
+<g id="node64" class="node">
+<title>7000921807384290169</title>
+<g id="a_node64"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter_ctl/shard-1/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/ENCC-I2_1.merged.nodup.bam" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter_ctl/shard&#45;1/execution/glob&#45;3bcbe4e7489c90f75e0523ac6f3a9385/ENCC&#45;I2_1.merged.nodup.bam" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M367.6667,-623.6518C367.6667,-623.6518 332.3333,-623.6518 332.3333,-623.6518 327.6667,-623.6518 323,-618.9852 323,-614.3185 323,-614.3185 323,-604.9852 323,-604.9852 323,-600.3185 327.6667,-595.6518 332.3333,-595.6518 332.3333,-595.6518 367.6667,-595.6518 367.6667,-595.6518 372.3333,-595.6518 377,-600.3185 377,-604.9852 377,-604.9852 377,-614.3185 377,-614.3185 377,-618.9852 372.3333,-623.6518 367.6667,-623.6518"/>
+<text text-anchor="middle" x="350" y="-612.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Filt/deduped</text>
+<text text-anchor="middle" x="350" y="-602.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BAM</text>
+</a>
+</g>
+</g>
+<!-- &#45;4772678027180352939&#45;&gt;7000921807384290169 -->
+<g id="edge100" class="edge">
+<title>&#45;4772678027180352939&#45;&gt;7000921807384290169</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M301.1183,-609.6518C306.5576,-609.6518 312.3085,-609.6518 317.8812,-609.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="317.9348,-611.4019 322.9348,-609.6518 317.9347,-607.9019 317.9348,-611.4019"/>
+</g>
+<!-- 3680507297522253179 -->
+<g id="node65" class="node">
+<title>3680507297522253179</title>
+<g id="a_node65"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-filter_ctl/shard-1/execution/glob-57d0acc485690c2359d57a5a21e0aedb/ENCC-I2_1.merged.dupmark.lib_complexity.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;filter_ctl/shard&#45;1/execution/glob&#45;57d0acc485690c2359d57a5a21e0aedb/ENCC&#45;I2_1.merged.dupmark.lib_complexity.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="350" cy="-640.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="350" y="-642.8518" font-family="Times,serif" font-size="6.00" fill="#000000">LibCmplx</text>
+<text text-anchor="middle" x="350" y="-635.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- &#45;4772678027180352939&#45;&gt;3680507297522253179 -->
+<g id="edge99" class="edge">
+<title>&#45;4772678027180352939&#45;&gt;3680507297522253179</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M296.0388,-618.7852C305.7349,-622.7144 317.0614,-627.3042 326.8269,-631.2614"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="326.1902,-632.8916 331.4815,-633.1476 327.5048,-629.6478 326.1902,-632.8916"/>
+</g>
+<!-- 7000921807384290169&#45;&gt;&#45;2543885414120305503 -->
+<g id="edge101" class="edge">
+<title>7000921807384290169&#45;&gt;&#45;2543885414120305503</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M377.4229,-609.6518C382.6938,-609.6518 388.2957,-609.6518 393.8149,-609.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="393.8485,-611.4019 398.8485,-609.6518 393.8485,-607.9019 393.8485,-611.4019"/>
+</g>
+<!-- 7000921807384290169&#45;&gt;&#45;6746542681116105075 -->
+<g id="edge102" class="edge">
+<title>7000921807384290169&#45;&gt;&#45;6746542681116105075</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M377.1652,-617.064C384.2579,-618.943 391.9035,-620.9188 399,-622.6518 458.4848,-637.1789 528.3077,-652.3563 568.1831,-660.8473"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="568.1147,-662.6218 573.3693,-661.9498 568.8425,-659.1983 568.1147,-662.6218"/>
+</g>
+<!-- 5380581441243496363 -->
+<g id="node66" class="node">
+<title>5380581441243496363</title>
+<polygon fill="#e0ffff" stroke="#000000" stroke-width=".5" points="148,-601.6518 92,-601.6518 92,-583.6518 148,-583.6518 148,-601.6518"/>
+<text text-anchor="middle" x="120" y="-590.4518" font-family="Times,serif" font-size="9.00" fill="#000000">chip.align_ctl</text>
+</g>
+<!-- &#45;3219175547842990260 -->
+<g id="node67" class="node">
+<title>&#45;3219175547842990260</title>
+<g id="a_node67"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-align_ctl/shard-1/execution/glob-7b38d9959cf6f3deb83ac2bd156d8317/ENCC-I2_1.merged.samstats.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;align_ctl/shard&#45;1/execution/glob&#45;7b38d9959cf6f3deb83ac2bd156d8317/ENCC&#45;I2_1.merged.samstats.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="197" cy="-583.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="197" y="-585.8518" font-family="Times,serif" font-size="6.00" fill="#000000">SAMstats</text>
+<text text-anchor="middle" x="197" y="-578.8518" font-family="Times,serif" font-size="6.00" fill="#000000">QC</text>
+</a>
+</g>
+</g>
+<!-- 5380581441243496363&#45;&gt;&#45;3219175547842990260 -->
+<g id="edge106" class="edge">
+<title>5380581441243496363&#45;&gt;&#45;3219175547842990260</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M148.2347,-589.3517C153.9527,-588.6833 159.9965,-587.9769 165.8095,-587.2975"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="166.3042,-589.0017 171.0672,-586.6829 165.8978,-585.5253 166.3042,-589.0017"/>
+</g>
+<!-- 212102793103625648 -->
+<g id="node68" class="node">
+<title>212102793103625648</title>
+<g id="a_node68"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-align_ctl/shard-1/execution/glob-3bcbe4e7489c90f75e0523ac6f3a9385/ENCC-I2_1.merged.bam" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;align_ctl/shard&#45;1/execution/glob&#45;3bcbe4e7489c90f75e0523ac6f3a9385/ENCC&#45;I2_1.merged.bam" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M218,-618.6518C218,-618.6518 176,-618.6518 176,-618.6518 173,-618.6518 170,-615.6518 170,-612.6518 170,-612.6518 170,-606.6518 170,-606.6518 170,-603.6518 173,-600.6518 176,-600.6518 176,-600.6518 218,-600.6518 218,-600.6518 221,-600.6518 224,-603.6518 224,-606.6518 224,-606.6518 224,-612.6518 224,-612.6518 224,-615.6518 221,-618.6518 218,-618.6518"/>
+<text text-anchor="middle" x="197" y="-607.4518" font-family="Times,serif" font-size="9.00" fill="#000000">BAM</text>
+</a>
+</g>
+</g>
+<!-- 5380581441243496363&#45;&gt;212102793103625648 -->
+<g id="edge107" class="edge">
+<title>5380581441243496363&#45;&gt;212102793103625648</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M148.2347,-598.8855C153.624,-600.0753 159.3029,-601.3291 164.8051,-602.5439"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="164.5354,-604.2764 169.7951,-603.6456 165.29,-600.8587 164.5354,-604.2764"/>
+</g>
+<!-- 212102793103625648&#45;&gt;&#45;4772678027180352939 -->
+<g id="edge108" class="edge">
+<title>212102793103625648&#45;&gt;&#45;4772678027180352939</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M224.1864,-609.6518C229.5788,-609.6518 235.2922,-609.6518 240.8448,-609.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="240.8852,-611.4019 245.8851,-609.6518 240.8851,-607.9019 240.8852,-611.4019"/>
+</g>
+<!-- 9155518772468406348 -->
+<g id="node69" class="node">
+<title>9155518772468406348</title>
+<g id="a_node69"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/fastq/ENCC-I2_1.fastq.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/fastq/ENCC&#45;I2_1.fastq.gz" target="blank">
+<path fill="#ffc0cb" stroke="#000000" stroke-width=".5" d="M60.6667,-636.6518C60.6667,-636.6518 25.3333,-636.6518 25.3333,-636.6518 20.6667,-636.6518 16,-631.9852 16,-627.3185 16,-627.3185 16,-617.9852 16,-617.9852 16,-613.3185 20.6667,-608.6518 25.3333,-608.6518 25.3333,-608.6518 60.6667,-608.6518 60.6667,-608.6518 65.3333,-608.6518 70,-613.3185 70,-617.9852 70,-617.9852 70,-627.3185 70,-627.3185 70,-631.9852 65.3333,-636.6518 60.6667,-636.6518"/>
+<text text-anchor="middle" x="43" y="-625.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FASTQ</text>
+<text text-anchor="middle" x="43" y="-615.4518" font-family="Times,serif" font-size="9.00" fill="#000000">R1 (1)</text>
+</a>
+</g>
+</g>
+<!-- 9155518772468406348&#45;&gt;5380581441243496363 -->
+<g id="edge126" class="edge">
+<title>9155518772468406348&#45;&gt;5380581441243496363</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M70.3641,-611.9905C77.3884,-609.2537 84.9539,-606.3062 92.0094,-603.5573"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="92.776,-605.1368 96.7996,-601.691 91.5054,-601.8756 92.776,-605.1368"/>
+</g>
+<!-- &#45;6488417148670242431 -->
+<g id="node70" class="node">
+<title>&#45;6488417148670242431</title>
+<g id="a_node70"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/fastq/ENCC-I2_2.fastq.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/fastq/ENCC&#45;I2_2.fastq.gz" target="blank">
+<path fill="#ffc0cb" stroke="#000000" stroke-width=".5" d="M60.6667,-601.6518C60.6667,-601.6518 25.3333,-601.6518 25.3333,-601.6518 20.6667,-601.6518 16,-596.9852 16,-592.3185 16,-592.3185 16,-582.9852 16,-582.9852 16,-578.3185 20.6667,-573.6518 25.3333,-573.6518 25.3333,-573.6518 60.6667,-573.6518 60.6667,-573.6518 65.3333,-573.6518 70,-578.3185 70,-582.9852 70,-582.9852 70,-592.3185 70,-592.3185 70,-596.9852 65.3333,-601.6518 60.6667,-601.6518"/>
+<text text-anchor="middle" x="43" y="-590.4518" font-family="Times,serif" font-size="9.00" fill="#000000">FASTQ</text>
+<text text-anchor="middle" x="43" y="-580.4518" font-family="Times,serif" font-size="9.00" fill="#000000">R2 (1)</text>
+</a>
+</g>
+</g>
+<!-- &#45;6488417148670242431&#45;&gt;5380581441243496363 -->
+<g id="edge127" class="edge">
+<title>&#45;6488417148670242431&#45;&gt;5380581441243496363</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M70.3641,-589.4287C75.7256,-589.7769 81.4023,-590.1455 86.9268,-590.5042"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="86.8413,-592.2523 91.9442,-590.83 87.0682,-588.7596 86.8413,-592.2523"/>
+</g>
+<!-- 4491660490558316863 -->
+<g id="node72" class="node">
+<title>4491660490558316863</title>
+<g id="a_node72"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-idr_ppr/execution/glob-8da83e7748d9e54f3e082eb4aa171757/pooled-pr1_vs_pooled-pr2.idr0.05.unthresholded-peaks.txt.png" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;idr_ppr/execution/glob&#45;8da83e7748d9e54f3e082eb4aa171757/pooled&#45;pr1_vs_pooled&#45;pr2.idr0.05.unthresholded&#45;peaks.txt.png" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="1077.5" cy="-263.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="1077.5" y="-265.8518" font-family="Times,serif" font-size="6.00" fill="#000000">IDR Plot</text>
+<text text-anchor="middle" x="1077.5" y="-258.8518" font-family="Times,serif" font-size="6.00" fill="#000000">ppr</text>
+</a>
+</g>
+</g>
+<!-- &#45;2789792544986436734&#45;&gt;4491660490558316863 -->
+<g id="edge1" class="edge">
+<title>&#45;2789792544986436734&#45;&gt;4491660490558316863</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M1017.5431,-241.7852C1028.8392,-245.905 1042.1268,-250.751 1053.3185,-254.8327"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1053.0015,-256.5798 1058.2985,-256.6489 1054.2007,-253.2916 1053.0015,-256.5798"/>
+</g>
+<!-- 3336941412419610982 -->
+<g id="node73" class="node">
+<title>3336941412419610982</title>
+<g id="a_node73"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-idr_ppr/execution/glob-2e6c87fc90e45fa5dbda88934d454cd3/pooled-pr1_vs_pooled-pr2.idr0.05.bfilt.narrowPeak.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;idr_ppr/execution/glob&#45;2e6c87fc90e45fa5dbda88934d454cd3/pooled&#45;pr1_vs_pooled&#45;pr2.idr0.05.bfilt.narrowPeak.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M1095.1667,-246.6518C1095.1667,-246.6518 1059.8333,-246.6518 1059.8333,-246.6518 1055.1667,-246.6518 1050.5,-241.9852 1050.5,-237.3185 1050.5,-237.3185 1050.5,-227.9852 1050.5,-227.9852 1050.5,-223.3185 1055.1667,-218.6518 1059.8333,-218.6518 1059.8333,-218.6518 1095.1667,-218.6518 1095.1667,-218.6518 1099.8333,-218.6518 1104.5,-223.3185 1104.5,-227.9852 1104.5,-227.9852 1104.5,-237.3185 1104.5,-237.3185 1104.5,-241.9852 1099.8333,-246.6518 1095.1667,-246.6518"/>
+<text text-anchor="middle" x="1077.5" y="-235.4518" font-family="Times,serif" font-size="9.00" fill="#000000">IDR Peak</text>
+<text text-anchor="middle" x="1077.5" y="-225.4518" font-family="Times,serif" font-size="9.00" fill="#000000">ppr</text>
+</a>
+</g>
+</g>
+<!-- &#45;2789792544986436734&#45;&gt;3336941412419610982 -->
+<g id="edge2" class="edge">
+<title>&#45;2789792544986436734&#45;&gt;3336941412419610982</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M1019.8624,-232.6518C1027.9808,-232.6518 1036.947,-232.6518 1045.3403,-232.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1045.4796,-234.4019 1050.4795,-232.6518 1045.4795,-230.9019 1045.4796,-234.4019"/>
+</g>
+<!-- &#45;4991913831509122831 -->
+<g id="node75" class="node">
+<title>&#45;4991913831509122831</title>
+<g id="a_node75"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-overlap/shard-0/execution/glob-2e6c87fc90e45fa5dbda88934d454cd3/rep1_vs_rep2.overlap.bfilt.narrowPeak.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;overlap/shard&#45;0/execution/glob&#45;2e6c87fc90e45fa5dbda88934d454cd3/rep1_vs_rep2.overlap.bfilt.narrowPeak.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M1096.6667,-176.6518C1096.6667,-176.6518 1058.3333,-176.6518 1058.3333,-176.6518 1053.6667,-176.6518 1049,-171.9852 1049,-167.3185 1049,-167.3185 1049,-157.9852 1049,-157.9852 1049,-153.3185 1053.6667,-148.6518 1058.3333,-148.6518 1058.3333,-148.6518 1096.6667,-148.6518 1096.6667,-148.6518 1101.3333,-148.6518 1106,-153.3185 1106,-157.9852 1106,-157.9852 1106,-167.3185 1106,-167.3185 1106,-171.9852 1101.3333,-176.6518 1096.6667,-176.6518"/>
+<text text-anchor="middle" x="1077.5" y="-165.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Overlap Peak</text>
+<text text-anchor="middle" x="1077.5" y="-155.4518" font-family="Times,serif" font-size="9.00" fill="#000000">rep1_vs_rep2</text>
+</a>
+</g>
+</g>
+<!-- 1298892941294475154&#45;&gt;&#45;4991913831509122831 -->
+<g id="edge3" class="edge">
+<title>1298892941294475154&#45;&gt;&#45;4991913831509122831</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M1019.8624,-162.6518C1027.3545,-162.6518 1035.5685,-162.6518 1043.388,-162.6518"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1043.7248,-164.4019 1048.7247,-162.6518 1043.7247,-160.9019 1043.7248,-164.4019"/>
+</g>
+<!-- &#45;4991913831509122831&#45;&gt;4731151964785008152 -->
+<g id="edge4" class="edge">
+<title>&#45;4991913831509122831&#45;&gt;4731151964785008152</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M1102.4103,-176.7181C1103.7152,-177.9503 1104.9276,-179.2618 1106,-180.6518 1161.4689,-252.5555 1176.962,-365.843 1180.8305,-405.9685"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1179.1238,-406.5236 1181.3203,-411.3441 1182.6093,-406.2059 1179.1238,-406.5236"/>
+</g>
+<!-- &#45;6458511873391487116 -->
+<g id="node77" class="node">
+<title>&#45;6458511873391487116</title>
+<g id="a_node77"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-reproducibility_overlap/execution/glob-1b1244d5baf1a7d98d4b7b76d79e43bf/overlap.optimal_peak.narrowPeak.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;reproducibility_overlap/execution/glob&#45;1b1244d5baf1a7d98d4b7b76d79e43bf/overlap.optimal_peak.narrowPeak.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M1305.6667,-450.6518C1305.6667,-450.6518 1267.3333,-450.6518 1267.3333,-450.6518 1262.6667,-450.6518 1258,-445.9852 1258,-441.3185 1258,-441.3185 1258,-431.9852 1258,-431.9852 1258,-427.3185 1262.6667,-422.6518 1267.3333,-422.6518 1267.3333,-422.6518 1305.6667,-422.6518 1305.6667,-422.6518 1310.3333,-422.6518 1315,-427.3185 1315,-431.9852 1315,-431.9852 1315,-441.3185 1315,-441.3185 1315,-445.9852 1310.3333,-450.6518 1305.6667,-450.6518"/>
+<text text-anchor="middle" x="1286.5" y="-439.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Overlap Peak</text>
+<text text-anchor="middle" x="1286.5" y="-429.4518" font-family="Times,serif" font-size="9.00" fill="#000000">optimal</text>
+</a>
+</g>
+</g>
+<!-- 4731151964785008152&#45;&gt;&#45;6458511873391487116 -->
+<g id="edge16" class="edge">
+<title>4731151964785008152&#45;&gt;&#45;6458511873391487116</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M1236.0866,-428.933C1241.6893,-429.7909 1247.2639,-430.6444 1252.5521,-431.4541"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1252.5281,-433.2207 1257.7354,-432.2477 1253.0578,-429.761 1252.5281,-433.2207"/>
+</g>
+<!-- &#45;8812735422714157045 -->
+<g id="node78" class="node">
+<title>&#45;8812735422714157045</title>
+<g id="a_node78"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-reproducibility_overlap/execution/glob-2e0755477c7b64fb4cd35cd75c0b0f2a/overlap.reproducibility.qc" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;reproducibility_overlap/execution/glob&#45;2e0755477c7b64fb4cd35cd75c0b0f2a/overlap.reproducibility.qc" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="1286.5" cy="-405.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="1286.5" y="-407.8518" font-family="Times,serif" font-size="6.00" fill="#000000">Overlap</text>
+<text text-anchor="middle" x="1286.5" y="-400.8518" font-family="Times,serif" font-size="6.00" fill="#000000">reproducibility</text>
+</a>
+</g>
+</g>
+<!-- 4731151964785008152&#45;&gt;&#45;8812735422714157045 -->
+<g id="edge15" class="edge">
+<title>4731151964785008152&#45;&gt;&#45;8812735422714157045</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M1236.0866,-412.8882C1242.9344,-411.9053 1249.74,-410.9284 1256.0324,-410.0252"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1256.4862,-411.7281 1261.1868,-409.2853 1255.9888,-408.2636 1256.4862,-411.7281"/>
+</g>
+<!-- 5121286589784810852 -->
+<g id="node80" class="node">
+<title>5121286589784810852</title>
+<g id="a_node80"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-overlap_ppr/execution/glob-2e6c87fc90e45fa5dbda88934d454cd3/pooled-pr1_vs_pooled-pr2.overlap.bfilt.narrowPeak.gz" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;overlap_ppr/execution/glob&#45;2e6c87fc90e45fa5dbda88934d454cd3/pooled&#45;pr1_vs_pooled&#45;pr2.overlap.bfilt.narrowPeak.gz" target="blank">
+<path fill="#ffffe0" stroke="#000000" stroke-width=".5" d="M1096.6667,-211.6518C1096.6667,-211.6518 1058.3333,-211.6518 1058.3333,-211.6518 1053.6667,-211.6518 1049,-206.9852 1049,-202.3185 1049,-202.3185 1049,-192.9852 1049,-192.9852 1049,-188.3185 1053.6667,-183.6518 1058.3333,-183.6518 1058.3333,-183.6518 1096.6667,-183.6518 1096.6667,-183.6518 1101.3333,-183.6518 1106,-188.3185 1106,-192.9852 1106,-192.9852 1106,-202.3185 1106,-202.3185 1106,-206.9852 1101.3333,-211.6518 1096.6667,-211.6518"/>
+<text text-anchor="middle" x="1077.5" y="-200.4518" font-family="Times,serif" font-size="9.00" fill="#000000">Overlap Peak</text>
+<text text-anchor="middle" x="1077.5" y="-190.4518" font-family="Times,serif" font-size="9.00" fill="#000000">ppr</text>
+</a>
+</g>
+</g>
+<!-- &#45;6293012349078827657&#45;&gt;5121286589784810852 -->
+<g id="edge40" class="edge">
+<title>&#45;6293012349078827657&#45;&gt;5121286589784810852</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M1027.0728,-194.6855C1032.6328,-195.0126 1038.3804,-195.3507 1043.9167,-195.6764"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1043.836,-197.4245 1048.9302,-195.9713 1044.0416,-193.9306 1043.836,-197.4245"/>
+</g>
+<!-- 5121286589784810852&#45;&gt;4731151964785008152 -->
+<g id="edge41" class="edge">
+<title>5121286589784810852&#45;&gt;4731151964785008152</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M1102.3325,-211.7796C1103.6565,-212.9968 1104.8944,-214.2881 1106,-215.6518 1154.7843,-275.8248 1174.0869,-370.3403 1179.9098,-406.2017"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="1178.2275,-406.7708 1180.731,-411.4394 1181.6853,-406.2286 1178.2275,-406.7708"/>
+</g>
+<!-- &#45;7310402697102425580 -->
+<g id="node82" class="node">
+<title>&#45;7310402697102425580</title>
+<g id="a_node82"><a xlink:href="/home/lizhixin/project2/analysis/ChIP-seq/encode-pipeline/encc/H3K27ac/result/chip/70290f80-9df9-4f29-a537-079ab49fb12a/call-jsd/execution/glob-fc36854b6867c1581ab159b09dd7e2f4/ENCC-K27-2_1.merged.nodup.jsd_plot.png" xlink:title="/home/lizhixin/project2/analysis/ChIP&#45;seq/encode&#45;pipeline/encc/H3K27ac/result/chip/70290f80&#45;9df9&#45;4f29&#45;a537&#45;079ab49fb12a/call&#45;jsd/execution/glob&#45;fc36854b6867c1581ab159b09dd7e2f4/ENCC&#45;K27&#45;2_1.merged.nodup.jsd_plot.png" target="blank">
+<ellipse fill="#dcdcdc" stroke="#000000" stroke-width=".5" cx="684.5" cy="-874.6518" rx="27" ry="9.8"/>
+<text text-anchor="middle" x="684.5" y="-876.8518" font-family="Times,serif" font-size="6.00" fill="#000000">JSD</text>
+<text text-anchor="middle" x="684.5" y="-869.8518" font-family="Times,serif" font-size="6.00" fill="#000000">Plot</text>
+</a>
+</g>
+</g>
+<!-- &#45;6746542681116105075&#45;&gt;&#45;7310402697102425580 -->
+<g id="edge115" class="edge">
+<title>&#45;6746542681116105075&#45;&gt;&#45;7310402697102425580</title>
+<path fill="none" stroke="#000000" stroke-width=".5" d="M625.9062,-676.8661C628.6341,-678.7472 631.102,-680.9887 633,-683.6518 678.4956,-747.4886 610.7737,-793.9292 655,-858.6518 656.6025,-860.997 658.6644,-863.0291 660.9527,-864.7825"/>
+<polygon fill="#000000" stroke="#000000" stroke-width=".5" points="660.132,-866.3381 665.2657,-867.6449 662.0673,-863.4219 660.132,-866.3381"/>
+</g>
+</g>
+</svg>
+</div><br></body>
+    </html>
+    
